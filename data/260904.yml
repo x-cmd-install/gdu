@@ -1,0 +1,64 @@
+about:
+  description:
+  |
+    Fast disk usage analyzer with console interface written in Go
+  license: MIT
+  homepage: 
+  head: c636c61
+  archived: false
+  latestVersion: v5.37.0
+  collectedAt: 2026-09-04T04:16:12Z
+timeline:
+  created: 2018-02-24
+  lastCommit: 2026-09-03
+  lastRelease: 2026-08-18
+popularity:
+  star: 5959
+  watcher: 25
+  fork: 234
+  release: 95
+  contributor: 67
+  pullRequest: 88
+  issue: 252
+language:
+  Go: 917378
+  TypeScript: 22145
+  Makefile: 6931
+  Roff: 5570
+  CSS: 5476
+  HTML: 290
+  Dockerfile: 220
+totalBytes: 958010
+recent:
+  last30d:
+    since: 2026-08-05
+    release: 1
+    mergedPR: 21
+    openPR: 10
+    closedIssue: 4
+    openIssue: 2
+    commit: 39
+  last90d:
+    since: 2026-06-06
+    release: 1
+    mergedPR: 45
+    openPR: 10
+    closedIssue: 8
+    openIssue: 3
+    commit: 50
+  last180d:
+    since: 2026-03-08
+    release: 7
+    mergedPR: 92
+    openPR: 10
+    closedIssue: 19
+    openIssue: 7
+    commit: 106
+  last360d:
+    since: 2025-09-09
+    release: 9
+    mergedPR: 142
+    openPR: 10
+    closedIssue: 28
+    openIssue: 12
+    commit: 168
