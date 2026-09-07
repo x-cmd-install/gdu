@@ -5,15 +5,15 @@ about:
   head: 0dd3ecb
   archived: false
   latestVersion: "v5.37.0"
-  collectedAt: 2026-09-07T05:46:04Z
+  collectedAt: 2026-09-07T18:41:43Z
 timeline:
   created: 2018-02-24
   lastCommit: 2026-09-04
   lastRelease: 2026-08-18
 popularity:
-  star: 5965
+  star: 5967
   watcher: 26
-  fork: 234
+  fork: 235
   release: 95
   contributor: 68
   pullRequest: 369
@@ -35,7 +35,7 @@ recent:
     openPR: 10
     closedIssue: 4
     openIssue: 3
-    commit: 38
+    commit: 0
   last60d:
     since: 2026-07-09
     release: 1
@@ -43,7 +43,7 @@ recent:
     openPR: 10
     closedIssue: 5
     openIssue: 3
-    commit: 43
+    commit: 0
   last90d:
     since: 2026-06-09
     release: 1
@@ -51,7 +51,7 @@ recent:
     openPR: 10
     closedIssue: 8
     openIssue: 3
-    commit: 51
+    commit: 0
   last180d:
     since: 2026-03-11
     release: 6
@@ -59,7 +59,7 @@ recent:
     openPR: 10
     closedIssue: 18
     openIssue: 8
-    commit: 106
+    commit: 0
   last360d:
     since: 2025-09-12
     release: 9
@@ -67,7 +67,7 @@ recent:
     openPR: 10
     closedIssue: 27
     openIssue: 13
-    commit: 170
+    commit: 0
   last720d:
     since: 2024-09-17
     release: 12
@@ -85,7 +85,7 @@ total:
   commit: 906
 ---
 path: /home/runner/.x-repo/github.com/dundee/gdu
-collectedAt: 2026-09-07T05:46:05Z
+collectedAt: 2026-09-07T18:41:44Z
 loc:
   Go:
     code: 28055
@@ -277,7 +277,7 @@ checks:
       - 'Warn: 24 commits out of 26 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:46:06+00:00
+  collectedAt: 2026-09-07T18:41:45+00:00
   platform:
     darwin/arm64:
       name:  gdu_darwin_arm64.tgz
