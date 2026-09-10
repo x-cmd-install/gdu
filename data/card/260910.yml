@@ -7,7 +7,7 @@ about:
   latestVersion: "v5.37.0"
   latestRelease: "v5.37.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T21:27:16Z
+  collectedAt: 2026-09-10T22:23:29Z
 timeline:
   created: 2018-02-24
   lastCommit: 2026-09-10
@@ -89,7 +89,7 @@ total:
   commit: 911
 ---
 path: /home/runner/.x-repo/github.com/dundee/gdu
-collectedAt: 2026-09-10T21:27:17Z
+collectedAt: 2026-09-10T22:23:30Z
 loc:
   Go:
     code: 28683
