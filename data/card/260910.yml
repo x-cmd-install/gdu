@@ -7,7 +7,7 @@ about:
   latestVersion: "v5.37.0"
   latestRelease: "v5.37.0"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T17:53:07Z
+  collectedAt: 2026-09-10T21:27:16Z
 timeline:
   created: 2018-02-24
   lastCommit: 2026-09-10
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-08-18
   lastPrerelease: 
 popularity:
-  star: 5968
+  star: 5969
   watcher: 26
   fork: 235
   release: 95
@@ -39,7 +39,7 @@ recent:
     openPR: 9
     closedIssue: 4
     openIssue: 3
-    commit: 0
+    commit: 43
   last60d:
     since: 2026-07-12
     release: 1
@@ -47,7 +47,7 @@ recent:
     openPR: 9
     closedIssue: 7
     openIssue: 3
-    commit: 0
+    commit: 48
   last90d:
     since: 2026-06-12
     release: 1
@@ -55,7 +55,7 @@ recent:
     openPR: 9
     closedIssue: 10
     openIssue: 3
-    commit: 0
+    commit: 56
   last180d:
     since: 2026-03-14
     release: 6
@@ -63,7 +63,7 @@ recent:
     openPR: 9
     closedIssue: 20
     openIssue: 8
-    commit: 0
+    commit: 111
   last360d:
     since: 2025-09-15
     release: 9
@@ -71,7 +71,7 @@ recent:
     openPR: 9
     closedIssue: 29
     openIssue: 13
-    commit: 0
+    commit: 175
   last720d:
     since: 2024-09-20
     release: 12
@@ -89,7 +89,7 @@ total:
   commit: 911
 ---
 path: /home/runner/.x-repo/github.com/dundee/gdu
-collectedAt: 2026-09-10T17:53:09Z
+collectedAt: 2026-09-10T21:27:17Z
 loc:
   Go:
     code: 28683
