@@ -47,22 +47,22 @@ x install gdu
 
 ## 流行度
 
-- **Star**: 5,974 · **Fork**: 235 · **开放 issue**: 255 · **贡献者**: 69
+- **Star**: 5,974 · **Fork**: 236 · **开放 issue**: 255 · **贡献者**: 69
 
 ## 累计统计
 
-- **发布数**: 95 · **已合并 PR**: 286 · **开放 PR**: 13 · **已关闭 issue**: 213 · **开放 issue**: 42 · **提交数**: 911
+- **发布数**: 95 · **已合并 PR**: 286 · **开放 PR**: 14 · **已关闭 issue**: 213 · **开放 issue**: 42 · **提交数**: 911
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 1 | 24 | 11 | 4 | 3 | 17 |
-| last60d | 2026-07-15 | 1 | 38 | 11 | 7 | 3 | 48 |
-| 90d | 2026-06-15 | 1 | 46 | 11 | 10 | 3 | 56 |
-| last180d | 2026-03-17 | 6 | 95 | 11 | 20 | 8 | 100 |
-| 360d | 2025-09-18 | 9 | 147 | 11 | 29 | 13 | 173 |
-| last720d | 2024-09-23 | 12 | 168 | 11 | 52 | 18 | 217 |
+| 30d | 2026-08-15 | 1 | 19 | 12 | 4 | 3 | 17 |
+| last60d | 2026-07-16 | 1 | 37 | 12 | 7 | 3 | 48 |
+| 90d | 2026-06-16 | 1 | 46 | 12 | 10 | 3 | 56 |
+| last180d | 2026-03-18 | 6 | 95 | 12 | 19 | 8 | 100 |
+| 360d | 2025-09-19 | 9 | 147 | 12 | 29 | 13 | 173 |
+| last720d | 2024-09-24 | 12 | 168 | 12 | 51 | 18 | 217 |
 
 ## Release 资产
 
@@ -100,25 +100,6 @@ x install gdu
 | [sha256sums.txt](https://github.com/dundee/gdu/releases/download/v5.37.0/sha256sums.txt) | 2.4 KiB | `other` |
 | [sha256sums.txt.asc](https://github.com/dundee/gdu/releases/download/v5.37.0/sha256sums.txt.asc) | 833 B | `other` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/gdu) 上共有 **97** 个发行版报告此项目。**18** 个 ✅ 已是最新上游版本，**73** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `5.36.1` | ⚠️ outdated |
-| Debian 14 | `5.36.1` | ⚠️ outdated |
-| Debian 13 | `5.25.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `5.25.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `5.25.0` | ⚠️ outdated |
-| Arch | `5.37.0` | ✅ latest |
-| Homebrew | `5.37.0` | ✅ latest |
-| Fedora rawhide | `5.32.0` | ⚠️ outdated |
-| Nix unstable | `5.37.0` | ✅ latest |
-| Void | `5.37.0` | ✅ latest |
-| Alpine edge | `5.36.1` | ⚠️ outdated |
-| openSUSE Tumbleweed | `5.36.1` | ⚠️ outdated |
-
 ## 改进这些数据
 
 gdu 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `gdu` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -128,4 +109,4 @@ gdu 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T06:01:53Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T06:20:40Z._
