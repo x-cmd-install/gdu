@@ -30,7 +30,7 @@ Overall score: **6 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (4/10) — Found 7/17 approved changesets -- score normalized to 4
+- **Code-Review** (4/10) — Found 9/21 approved changesets -- score normalized to 4
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,976 · **Forks**: 236 · **Open issues**: 255 · **Contributors**: 70
+- **Stars**: 5,978 · **Forks**: 236 · **Open issues**: 255 · **Contributors**: 70
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-16 | 1 | 21 | 11 | 5 | 2 | 19 |
-| last60d | 2026-07-17 | 1 | 35 | 11 | 8 | 2 | 50 |
-| 90d | 2026-06-17 | 1 | 48 | 11 | 11 | 2 | 58 |
-| last180d | 2026-03-19 | 6 | 95 | 11 | 18 | 7 | 102 |
-| 360d | 2025-09-20 | 9 | 149 | 11 | 30 | 12 | 175 |
-| last720d | 2024-09-25 | 12 | 170 | 11 | 52 | 17 | 219 |
+| 30d | 2026-08-17 | 1 | 20 | 11 | 5 | 2 | 19 |
+| last60d | 2026-07-18 | 1 | 35 | 11 | 8 | 2 | 50 |
+| 90d | 2026-06-18 | 1 | 47 | 11 | 10 | 2 | 58 |
+| last180d | 2026-03-20 | 6 | 92 | 11 | 18 | 6 | 102 |
+| 360d | 2025-09-21 | 9 | 149 | 11 | 30 | 12 | 175 |
+| last720d | 2024-09-26 | 12 | 170 | 11 | 52 | 17 | 219 |
 
 ## Release assets
 
@@ -109,4 +109,4 @@ Install metadata for gdu lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260915.yml` · 2026-09-15T06:12:28Z._
+_Snapshot: `data/card/260916.yml` · 2026-09-16T06:05:47Z._
