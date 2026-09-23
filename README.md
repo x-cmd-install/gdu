@@ -4,7 +4,7 @@
 
 Fast disk usage analyzer with console interface written in Go
 
-[![x-cmd/install — gdu Code Quality Monitoring Repo Card](https://repo.x-cmd.io/gdu.svg)](https://x-cmd.com/install/gdu)
+[![x-cmd/install — gdu Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/gdu.svg)](https://x-cmd.com/install/gdu)
 
 ## Install
 
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 5,997 · **Forks**: 235 · **Open issues**: 255 · **Contributors**: 71
+- **Stars**: 5,999 · **Forks**: 234 · **Open issues**: 256 · **Contributors**: 71
 
 ## Totals (cumulative)
 
-- **Releases**: 95 · **Merged PRs**: 292 · **Open PRs**: 11 · **Closed issues**: 214 · **Open issues**: 41 · **Commits**: 917
+- **Releases**: 95 · **Merged PRs**: 292 · **Open PRs**: 11 · **Closed issues**: 214 · **Open issues**: 42 · **Commits**: 917
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 20 | 7 | 3 | 2 | 21 |
-| last60d | 2026-07-24 | 1 | 37 | 9 | 7 | 2 | 52 |
-| 90d | 2026-06-24 | 1 | 49 | 9 | 9 | 2 | 59 |
-| last180d | 2026-03-26 | 4 | 93 | 9 | 16 | 6 | 98 |
-| 360d | 2025-09-27 | 9 | 152 | 9 | 30 | 12 | 179 |
-| last720d | 2024-10-02 | 12 | 174 | 9 | 52 | 17 | 223 |
+| 30d | 2026-08-24 | 0 | 19 | 7 | 3 | 3 | 21 |
+| last60d | 2026-07-25 | 1 | 37 | 9 | 7 | 3 | 52 |
+| 90d | 2026-06-25 | 1 | 49 | 9 | 9 | 3 | 59 |
+| last180d | 2026-03-27 | 4 | 92 | 9 | 15 | 7 | 98 |
+| 360d | 2025-09-28 | 9 | 152 | 9 | 30 | 13 | 179 |
+| last720d | 2024-10-03 | 12 | 174 | 9 | 52 | 18 | 223 |
 
 ## Release assets
 
@@ -109,4 +109,4 @@ Install metadata for gdu lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260922.yml` · 2026-09-22T06:13:12Z._
+_Snapshot: `data/card/260923.yml` · 2026-09-23T06:18:29Z._

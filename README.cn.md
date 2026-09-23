@@ -4,7 +4,7 @@
 
 Fast disk usage analyzer with console interface written in Go
 
-[![x-cmd/install — gdu Code Quality Monitoring Repo Card](https://repo.x-cmd.io/gdu.svg?lang=zh)](https://x-cmd.com/install/gdu)
+[![x-cmd/install — gdu Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/gdu.svg?lang=zh)](https://x-cmd.com/install/gdu)
 
 ## 安装
 
@@ -47,22 +47,22 @@ x install gdu
 
 ## 流行度
 
-- **Star**: 5,997 · **Fork**: 235 · **开放 issue**: 255 · **贡献者**: 71
+- **Star**: 5,999 · **Fork**: 234 · **开放 issue**: 256 · **贡献者**: 71
 
 ## 累计统计
 
-- **发布数**: 95 · **已合并 PR**: 292 · **开放 PR**: 11 · **已关闭 issue**: 214 · **开放 issue**: 41 · **提交数**: 917
+- **发布数**: 95 · **已合并 PR**: 292 · **开放 PR**: 11 · **已关闭 issue**: 214 · **开放 issue**: 42 · **提交数**: 917
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 20 | 7 | 3 | 2 | 21 |
-| last60d | 2026-07-24 | 1 | 37 | 9 | 7 | 2 | 52 |
-| 90d | 2026-06-24 | 1 | 49 | 9 | 9 | 2 | 59 |
-| last180d | 2026-03-26 | 4 | 93 | 9 | 16 | 6 | 98 |
-| 360d | 2025-09-27 | 9 | 152 | 9 | 30 | 12 | 179 |
-| last720d | 2024-10-02 | 12 | 174 | 9 | 52 | 17 | 223 |
+| 30d | 2026-08-24 | 0 | 19 | 7 | 3 | 3 | 21 |
+| last60d | 2026-07-25 | 1 | 37 | 9 | 7 | 3 | 52 |
+| 90d | 2026-06-25 | 1 | 49 | 9 | 9 | 3 | 59 |
+| last180d | 2026-03-27 | 4 | 92 | 9 | 15 | 7 | 98 |
+| 360d | 2025-09-28 | 9 | 152 | 9 | 30 | 13 | 179 |
+| last720d | 2024-10-03 | 12 | 174 | 9 | 52 | 18 | 223 |
 
 ## Release 资产
 
@@ -109,4 +109,4 @@ gdu 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T06:13:13Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T06:18:30Z._
