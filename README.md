@@ -26,13 +26,13 @@ Total: **36,147** lines of code across **233** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **6 / 10**
+Overall score: **6.2 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (4/10) — Found 11/23 approved changesets -- score normalized to 4
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Security-Policy** (0/10) — security policy file not detected
 
 ## Source
 
@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,026 · **Forks**: 234 · **Open issues**: 256 · **Contributors**: 71
+- **Stars**: 6,027 · **Forks**: 235 · **Open issues**: 256 · **Contributors**: 71
 
 ## Totals (cumulative)
 
-- **Releases**: 95 · **Merged PRs**: 300 · **Open PRs**: 8 · **Closed issues**: 215 · **Open issues**: 41 · **Commits**: 925
+- **Releases**: 95 · **Merged PRs**: 300 · **Open PRs**: 9 · **Closed issues**: 216 · **Open issues**: 40 · **Commits**: 925
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-30 | 0 | 22 | 6 | 2 | 3 | 21 |
-| last60d | 2026-07-31 | 1 | 44 | 6 | 7 | 3 | 60 |
-| 90d | 2026-07-01 | 1 | 57 | 6 | 9 | 3 | 65 |
-| last180d | 2026-04-02 | 3 | 96 | 6 | 16 | 6 | 102 |
-| 360d | 2025-10-04 | 9 | 160 | 6 | 31 | 11 | 187 |
-| last720d | 2024-10-09 | 12 | 182 | 6 | 53 | 17 | 231 |
+| 30d | 2026-08-31 | 0 | 21 | 6 | 3 | 2 | 21 |
+| last60d | 2026-08-01 | 1 | 43 | 7 | 8 | 2 | 60 |
+| 90d | 2026-07-02 | 1 | 57 | 7 | 10 | 2 | 65 |
+| last180d | 2026-04-03 | 3 | 96 | 7 | 17 | 5 | 102 |
+| 360d | 2025-10-05 | 9 | 160 | 7 | 32 | 10 | 187 |
+| last720d | 2024-10-10 | 12 | 182 | 7 | 54 | 16 | 231 |
 
 ## Release assets
 
@@ -109,4 +109,4 @@ Install metadata for gdu lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260929.yml` · 2026-09-29T06:50:35Z._
+_Snapshot: `data/card/260930.yml` · 2026-09-30T06:27:59Z._
