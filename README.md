@@ -14,11 +14,11 @@ x install gdu
 
 ## Code insight
 
-Total: **36,399** lines of code across **235** files in the top 5 languages.
+Total: **36,496** lines of code across **235** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 30,492 | 2,235 | 6,449 | 196 |
+| Go | 30,589 | 2,235 | 6,464 | 196 |
 | Json | 2,448 | 0 | 4 | 7 |
 | Tsx | 1,796 | 83 | 208 | 17 |
 | TypeScript | 674 | 62 | 84 | 13 |
@@ -41,64 +41,65 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v5.37.0` (2026-08-18)
-- **Last commit**: 2026-10-02
-- **Assets in release**: 31
+- **Latest**: `v5.38.0` (2026-10-05)
+- **Last commit**: 2026-10-05
+- **Assets in release**: 32
 
 ## Popularity
 
-- **Stars**: 6,058 · **Forks**: 237 · **Open issues**: 256 · **Contributors**: 73
+- **Stars**: 6,069 · **Forks**: 237 · **Open issues**: 256 · **Contributors**: 74
 
 ## Totals (cumulative)
 
-- **Releases**: 95 · **Merged PRs**: 303 · **Open PRs**: 9 · **Closed issues**: 217 · **Open issues**: 39 · **Commits**: 929
+- **Releases**: 96 · **Merged PRs**: 304 · **Open PRs**: 8 · **Closed issues**: 218 · **Open issues**: 38 · **Commits**: 932
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 0 | 12 | 7 | 2 | 2 | 18 |
-| last60d | 2026-08-06 | 1 | 45 | 7 | 8 | 2 | 64 |
-| 90d | 2026-07-07 | 1 | 56 | 7 | 9 | 2 | 66 |
-| last180d | 2026-04-08 | 3 | 96 | 7 | 17 | 4 | 102 |
-| 360d | 2025-10-10 | 9 | 163 | 7 | 32 | 10 | 191 |
-| last720d | 2024-10-15 | 12 | 185 | 7 | 54 | 16 | 235 |
+| 30d | 2026-09-06 | 1 | 13 | 6 | 2 | 1 | 21 |
+| last60d | 2026-08-07 | 2 | 46 | 6 | 9 | 1 | 67 |
+| 90d | 2026-07-08 | 2 | 56 | 6 | 10 | 1 | 69 |
+| last180d | 2026-04-09 | 4 | 95 | 6 | 18 | 3 | 105 |
+| 360d | 2025-10-11 | 10 | 164 | 6 | 33 | 9 | 194 |
+| last720d | 2024-10-16 | 13 | 186 | 6 | 55 | 15 | 238 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [gdu-5.37.0.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu-5.37.0.tgz) | 49.8 MiB | `native/unknown` |
-| [gdu.1.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu.1.tgz) | 2.2 KiB | `native/unknown` |
-| [gdu_android_arm64.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_android_arm64.tgz) | 7.8 MiB | `native/linux/arm64` |
-| [gdu_darwin_amd64.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_darwin_amd64.tgz) | 8.2 MiB | `native/darwin/x64` |
-| [gdu_darwin_arm64.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_darwin_arm64.tgz) | 7.7 MiB | `native/darwin/arm64` |
-| [gdu_freebsd_386.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_freebsd_386.tgz) | 6.3 MiB | `native/unknown` |
-| [gdu_freebsd_amd64.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_freebsd_amd64.tgz) | 8.1 MiB | `native/linux/x64` |
-| [gdu_freebsd_arm.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_freebsd_arm.tgz) | 6.2 MiB | `native/linux/arm` |
-| [gdu_linux_386.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_linux_386.tgz) | 7.8 MiB | `native/unknown` |
-| [gdu_linux_amd64.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_linux_amd64.tgz) | 8.5 MiB | `native/linux/x64` |
-| [gdu_linux_amd64_static.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_linux_amd64_static.tgz) | 8.1 MiB | `native/linux/x64` |
-| [gdu_linux_arm.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_linux_arm.tgz) | 7.7 MiB | `native/linux/arm` |
-| [gdu_linux_arm64.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_linux_arm64.tgz) | 7.4 MiB | `native/linux/arm64` |
-| [gdu_linux_armv5l.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_linux_armv5l.tgz) | 7.7 MiB | `native/linux/arm` |
-| [gdu_linux_armv6l.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_linux_armv6l.tgz) | 7.7 MiB | `native/linux/arm` |
-| [gdu_linux_armv7l.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_linux_armv7l.tgz) | 7.7 MiB | `native/linux/arm` |
-| [gdu_linux_mips.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_linux_mips.tgz) | 6.0 MiB | `native/unknown` |
-| [gdu_linux_mips64.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_linux_mips64.tgz) | 5.8 MiB | `native/unknown` |
-| [gdu_linux_mips64le.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_linux_mips64le.tgz) | 5.7 MiB | `native/unknown` |
-| [gdu_linux_mipsle.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_linux_mipsle.tgz) | 5.9 MiB | `native/unknown` |
-| [gdu_linux_ppc64.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_linux_ppc64.tgz) | 6.0 MiB | `native/unknown` |
-| [gdu_linux_ppc64le.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_linux_ppc64le.tgz) | 7.5 MiB | `native/unknown` |
-| [gdu_linux_s390x.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_linux_s390x.tgz) | 8.0 MiB | `native/unknown` |
-| [gdu_netbsd_386.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_netbsd_386.tgz) | 6.2 MiB | `native/unknown` |
-| [gdu_netbsd_amd64.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_netbsd_amd64.tgz) | 6.5 MiB | `native/linux/x64` |
-| [gdu_netbsd_arm.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_netbsd_arm.tgz) | 6.1 MiB | `native/linux/arm` |
-| [gdu_openbsd_386.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_openbsd_386.tgz) | 6.3 MiB | `native/unknown` |
-| [gdu_openbsd_amd64.tgz](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_openbsd_amd64.tgz) | 8.1 MiB | `native/linux/x64` |
-| [gdu_windows_amd64.exe.zip](https://github.com/dundee/gdu/releases/download/v5.37.0/gdu_windows_amd64.exe.zip) | 8.3 MiB | `native/win/x64` |
-| [sha256sums.txt](https://github.com/dundee/gdu/releases/download/v5.37.0/sha256sums.txt) | 2.4 KiB | `other` |
-| [sha256sums.txt.asc](https://github.com/dundee/gdu/releases/download/v5.37.0/sha256sums.txt.asc) | 833 B | `other` |
+| [gdu-5.38.0.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu-5.38.0.tgz) | 30.4 MiB | `native/unknown` |
+| [gdu.1.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu.1.tgz) | 3.8 KiB | `native/unknown` |
+| [gdu_android_arm64.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_android_arm64.tgz) | 8.1 MiB | `native/linux/arm64` |
+| [gdu_darwin_amd64.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_darwin_amd64.tgz) | 8.6 MiB | `native/darwin/x64` |
+| [gdu_darwin_arm64.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_darwin_arm64.tgz) | 8.0 MiB | `native/darwin/arm64` |
+| [gdu_freebsd_386.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_freebsd_386.tgz) | 6.6 MiB | `native/unknown` |
+| [gdu_freebsd_amd64.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_freebsd_amd64.tgz) | 8.4 MiB | `native/linux/x64` |
+| [gdu_freebsd_arm.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_freebsd_arm.tgz) | 6.5 MiB | `native/linux/arm` |
+| [gdu_linux_386.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_linux_386.tgz) | 8.1 MiB | `native/unknown` |
+| [gdu_linux_amd64.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_linux_amd64.tgz) | 8.9 MiB | `native/linux/x64` |
+| [gdu_linux_amd64_static.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_linux_amd64_static.tgz) | 8.5 MiB | `native/linux/x64` |
+| [gdu_linux_arm.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_linux_arm.tgz) | 8.0 MiB | `native/linux/arm` |
+| [gdu_linux_arm64.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_linux_arm64.tgz) | 7.8 MiB | `native/linux/arm64` |
+| [gdu_linux_armv5l.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_linux_armv5l.tgz) | 8.1 MiB | `native/linux/arm` |
+| [gdu_linux_armv6l.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_linux_armv6l.tgz) | 8.0 MiB | `native/linux/arm` |
+| [gdu_linux_armv7l.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_linux_armv7l.tgz) | 8.0 MiB | `native/linux/arm` |
+| [gdu_linux_mips.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_linux_mips.tgz) | 6.3 MiB | `native/unknown` |
+| [gdu_linux_mips64.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_linux_mips64.tgz) | 6.1 MiB | `native/unknown` |
+| [gdu_linux_mips64le.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_linux_mips64le.tgz) | 6.0 MiB | `native/unknown` |
+| [gdu_linux_mipsle.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_linux_mipsle.tgz) | 6.2 MiB | `native/unknown` |
+| [gdu_linux_ppc64.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_linux_ppc64.tgz) | 6.3 MiB | `native/unknown` |
+| [gdu_linux_ppc64le.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_linux_ppc64le.tgz) | 7.9 MiB | `native/unknown` |
+| [gdu_linux_s390x.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_linux_s390x.tgz) | 8.4 MiB | `native/unknown` |
+| [gdu_netbsd_386.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_netbsd_386.tgz) | 6.5 MiB | `native/unknown` |
+| [gdu_netbsd_amd64.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_netbsd_amd64.tgz) | 6.8 MiB | `native/linux/x64` |
+| [gdu_netbsd_arm.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_netbsd_arm.tgz) | 6.4 MiB | `native/linux/arm` |
+| [gdu_openbsd_386.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_openbsd_386.tgz) | 6.5 MiB | `native/unknown` |
+| [gdu_openbsd_amd64.tgz](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_openbsd_amd64.tgz) | 8.4 MiB | `native/linux/x64` |
+| [gdu_windows_amd64.exe.zip](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_windows_amd64.exe.zip) | 8.6 MiB | `native/win/x64` |
+| [gdu_windows_arm64.exe.zip](https://github.com/dundee/gdu/releases/download/v5.38.0/gdu_windows_arm64.exe.zip) | 7.8 MiB | `native/win/arm64` |
+| [sha256sums.txt](https://github.com/dundee/gdu/releases/download/v5.38.0/sha256sums.txt) | 2.5 KiB | `other` |
+| [sha256sums.txt.asc](https://github.com/dundee/gdu/releases/download/v5.38.0/sha256sums.txt.asc) | 833 B | `other` |
 
 ## Improve this data
 
@@ -109,4 +110,4 @@ Install metadata for gdu lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261005.yml` · 2026-10-05T06:39:03Z._
+_Snapshot: `data/card/261006.yml` · 2026-10-06T07:32:50Z._
