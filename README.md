@@ -14,15 +14,15 @@ x install gdu
 
 ## Code insight
 
-Total: **36,496** lines of code across **235** files in the top 5 languages.
+Total: **39,355** lines of code across **246** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 30,589 | 2,235 | 6,464 | 196 |
+| Go | 32,304 | 2,443 | 6,699 | 202 |
+| Tsx | 2,592 | 125 | 275 | 19 |
 | Json | 2,448 | 0 | 4 | 7 |
-| Tsx | 1,796 | 83 | 208 | 17 |
-| TypeScript | 674 | 62 | 84 | 13 |
-| Css | 487 | 6 | 78 | 2 |
+| TypeScript | 938 | 89 | 122 | 16 |
+| Css | 570 | 6 | 94 | 2 |
 
 ## OpenSSF Scorecard
 
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v5.38.0` (2026-10-05)
-- **Last commit**: 2026-10-05
+- **Last commit**: 2026-10-19
 - **Assets in release**: 32
 
 ## Popularity
 
-- **Stars**: 6,129 · **Forks**: 250 · **Open issues**: 259 · **Contributors**: 74
+- **Stars**: 6,132 · **Forks**: 252 · **Open issues**: 260 · **Contributors**: 74
 
 ## Totals (cumulative)
 
-- **Releases**: 96 · **Merged PRs**: 304 · **Open PRs**: 12 · **Closed issues**: 218 · **Open issues**: 41 · **Commits**: 932
+- **Releases**: 96 · **Merged PRs**: 306 · **Open PRs**: 13 · **Closed issues**: 219 · **Open issues**: 41 · **Commits**: 935
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-19 | 1 | 4 | 10 | 2 | 2 | 7 |
-| last60d | 2026-08-20 | 1 | 30 | 10 | 6 | 3 | 38 |
-| 90d | 2026-07-21 | 2 | 51 | 10 | 10 | 4 | 67 |
-| last180d | 2026-04-22 | 4 | 91 | 10 | 17 | 6 | 100 |
-| 360d | 2025-10-24 | 10 | 162 | 10 | 33 | 11 | 192 |
-| last720d | 2024-10-29 | 13 | 186 | 10 | 54 | 18 | 238 |
+| 30d | 2026-09-20 | 1 | 6 | 11 | 3 | 2 | 10 |
+| last60d | 2026-08-21 | 1 | 32 | 11 | 7 | 3 | 41 |
+| 90d | 2026-07-22 | 2 | 53 | 11 | 11 | 4 | 70 |
+| last180d | 2026-04-23 | 4 | 93 | 11 | 18 | 5 | 103 |
+| 360d | 2025-10-25 | 10 | 164 | 11 | 34 | 11 | 195 |
+| last720d | 2024-10-30 | 13 | 188 | 11 | 55 | 18 | 241 |
 
 ## Release assets
 
@@ -110,4 +110,4 @@ Install metadata for gdu lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261019.yml` · 2026-10-19T05:27:52Z._
+_Snapshot: `data/card/261020.yml` · 2026-10-20T05:44:58Z._
