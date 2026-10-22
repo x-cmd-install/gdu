@@ -26,13 +26,13 @@ x install gdu
 
 ## OpenSSF Scorecard 评分
 
-总评分: **6.3 / 10**
+总评分: **6.2 / 10**
 
 评分最低的几项:
 
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Security-Policy** (0/10) — security policy file not detected
+- **Pinned-Dependencies** (0/10) — dependency not pinned by hash detected -- score normalized to 0
 
 ## 源代码
 
@@ -47,22 +47,22 @@ x install gdu
 
 ## 流行度
 
-- **Star**: 6,133 · **Fork**: 246 · **开放 issue**: 260 · **贡献者**: 74
+- **Star**: 6,136 · **Fork**: 243 · **开放 issue**: 260 · **贡献者**: 74
 
 ## 累计统计
 
-- **发布数**: 96 · **已合并 PR**: 306 · **开放 PR**: 15 · **已关闭 issue**: 219 · **开放 issue**: 41 · **提交数**: 935
+- **发布数**: 96 · **已合并 PR**: 306 · **开放 PR**: 16 · **已关闭 issue**: 219 · **开放 issue**: 41 · **提交数**: 935
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-21 | 1 | 5 | 13 | 3 | 2 | 10 |
-| last60d | 2026-08-22 | 1 | 32 | 13 | 7 | 3 | 41 |
-| 90d | 2026-07-23 | 2 | 52 | 13 | 10 | 4 | 70 |
-| last180d | 2026-04-24 | 4 | 92 | 13 | 18 | 5 | 103 |
-| 360d | 2025-10-26 | 10 | 164 | 13 | 34 | 11 | 195 |
-| last720d | 2024-10-31 | 13 | 188 | 13 | 55 | 18 | 241 |
+| 30d | 2026-09-22 | 1 | 5 | 14 | 3 | 2 | 10 |
+| last60d | 2026-08-23 | 1 | 32 | 14 | 7 | 3 | 41 |
+| 90d | 2026-07-24 | 2 | 51 | 14 | 10 | 4 | 70 |
+| last180d | 2026-04-25 | 4 | 92 | 14 | 18 | 5 | 103 |
+| 360d | 2025-10-27 | 10 | 164 | 14 | 34 | 11 | 195 |
+| last720d | 2024-11-01 | 13 | 188 | 14 | 55 | 18 | 241 |
 
 ## Release 资产
 
@@ -110,4 +110,4 @@ gdu 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261021.yml` · 2026-10-21T05:39:28Z._
+_数据快照: `data/card/261022.yml` · 2026-10-22T05:39:42Z._
