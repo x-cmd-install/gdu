@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,136 · **Forks**: 243 · **Open issues**: 260 · **Contributors**: 74
+- **Stars**: 6,143 · **Forks**: 245 · **Open issues**: 260 · **Contributors**: 74
 
 ## Totals (cumulative)
 
-- **Releases**: 96 · **Merged PRs**: 306 · **Open PRs**: 16 · **Closed issues**: 219 · **Open issues**: 41 · **Commits**: 935
+- **Releases**: 96 · **Merged PRs**: 306 · **Open PRs**: 17 · **Closed issues**: 219 · **Open issues**: 41 · **Commits**: 935
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 1 | 5 | 14 | 3 | 2 | 10 |
-| last60d | 2026-08-23 | 1 | 32 | 14 | 7 | 3 | 41 |
-| 90d | 2026-07-24 | 2 | 51 | 14 | 10 | 4 | 70 |
-| last180d | 2026-04-25 | 4 | 92 | 14 | 18 | 5 | 103 |
-| 360d | 2025-10-27 | 10 | 164 | 14 | 34 | 11 | 195 |
-| last720d | 2024-11-01 | 13 | 188 | 14 | 55 | 18 | 241 |
+| 30d | 2026-09-23 | 1 | 5 | 11 | 2 | 2 | 10 |
+| last60d | 2026-08-24 | 1 | 31 | 15 | 7 | 3 | 41 |
+| 90d | 2026-07-25 | 2 | 51 | 15 | 10 | 4 | 70 |
+| last180d | 2026-04-26 | 4 | 91 | 15 | 18 | 5 | 103 |
+| 360d | 2025-10-28 | 10 | 164 | 15 | 34 | 11 | 195 |
+| last720d | 2024-11-02 | 13 | 188 | 15 | 55 | 18 | 241 |
 
 ## Release assets
 
@@ -101,6 +101,25 @@ Lowest-scoring checks:
 | [sha256sums.txt](https://github.com/dundee/gdu/releases/download/v5.38.0/sha256sums.txt) | 2.5 KiB | `other` |
 | [sha256sums.txt.asc](https://github.com/dundee/gdu/releases/download/v5.38.0/sha256sums.txt.asc) | 833 B | `other` |
 
+## Distribution status
+
+Reported by **92** distros on [repology.org](https://repology.org/project/gdu). **20** are ✅ on the latest upstream release, **67** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `5.36.1` | ⚠️ outdated |
+| Debian 14 | `5.36.1` | ⚠️ outdated |
+| Debian 13 | `5.25.0` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `5.25.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `5.25.0` | ⚠️ outdated |
+| Arch | `5.38.0` | ✅ latest |
+| Homebrew | `5.38.0` | ✅ latest |
+| Fedora rawhide | `5.32.0` | ⚠️ outdated |
+| Nix unstable | `5.38.0` | ✅ latest |
+| Void | `5.38.0` | ✅ latest |
+| Alpine edge | `5.36.1` | ⚠️ outdated |
+| openSUSE Tumbleweed | `5.36.1` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for gdu lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `gdu` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -110,4 +129,4 @@ Install metadata for gdu lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T05:39:41Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T05:45:33Z._
