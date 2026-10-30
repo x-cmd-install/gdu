@@ -1,12 +1,34 @@
-- repo: chimera
-  subrepo: user
+- repo: manjaro_stable
+  subrepo: extra
   srcname: gdu
-  binname: gdu-doc
-  visiblename: gdu-doc
-  version: 5.36.1
-  origversion: 5.36.1-r4
+  binname: gdu
+  visiblename: gdu
+  version: 5.37.0
+  origversion: 5.37.0-1
   status: outdated
-  summary: Disk usage analyzer (documentation)
+  summary: Fast disk usage analyzer
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: gdu
+  binname: gdu
+  visiblename: gdu
+  version: 5.38.0
+  origversion: 5.38.0-1
+  status: newest
+  summary: Fast disk usage analyzer
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: gdu
+  binname: gdu
+  visiblename: gdu
+  version: 5.38.0
+  origversion: 5.38.0-1
+  status: newest
+  summary: Fast disk usage analyzer
   licenses:
     - MIT
 - repo: alpine_3_20
@@ -145,7 +167,7 @@
   binname: gdu
   visiblename: gdu
   version: 5.36.1
-  origversion: 5.36.1-r1
+  origversion: 5.36.1-r2
   status: outdated
   summary: Fast disk usage calculator with console interface
   maintainers:
@@ -158,7 +180,7 @@
   binname: gdu-doc
   visiblename: gdu-doc
   version: 5.36.1
-  origversion: 5.36.1-r1
+  origversion: 5.36.1-r2
   status: outdated
   summary: Fast disk usage calculator with console interface (documentation)
   maintainers:
@@ -256,6 +278,17 @@
 - repo: chimera
   subrepo: user
   srcname: gdu
+  binname: gdu-doc
+  visiblename: gdu-doc
+  version: 5.36.1
+  origversion: 5.36.1-r4
+  status: outdated
+  summary: Disk usage analyzer (documentation)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: user
+  srcname: gdu
   binname: gdu-man
   visiblename: gdu-man
   version: 5.36.1
@@ -299,15 +332,6 @@
     - daniel@milde.cz
   categories:
     - misc
-- repo: scoop
-  subrepo: main
-  binname: gdu
-  visiblename: gdu
-  version: 5.38.0
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
 - repo: debian_13
   subrepo: trixie/main
   srcname: gdu
@@ -407,6 +431,16 @@
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT
   categories:
     - Unspecified
+- repo: msys2_clang64
+  srcname: mingw-w64-gdu
+  binname: mingw-w64-clang-x86_64-gdu
+  visiblename: mingw-w64-clang-x86_64-gdu
+  version: 5.38.0
+  origversion: 5.38.0-1
+  status: newest
+  summary: Fast disk usage analyzer (mingw-w64)
+  licenses:
+    - spdx:MIT
 - repo: epel_10
   srcname: gdu
   binnames:
@@ -483,36 +517,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: release
-  srcname: gdu
-  binnames:
-    - gdu
-    - gdu-debuginfo
-    - gdu-debugsource
-  visiblename: gdu
-  version: 5.31.0
-  origversion: 5.31.0-1.fc43
-  status: legacy
-  summary: Fast disk usage analyzer with console interface written in Go
-  licenses:
-    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT
-  categories:
-    - Unspecified
-- repo: mageia_9
-  subrepo: core/release
-  srcname: gdu
-  binnames:
-    - gdu
-  visiblename: gdu
-  version: 5.13.2
-  origversion: 5.13.2-1.mga9
-  status: outdated
-  summary: Pretty fast disk usage analyzer written in Go
-  licenses:
-    - MIT
-  categories:
-    - File tools
-- repo: fedora_43
   subrepo: updates
   srcname: gdu
   binnames:
@@ -523,6 +527,22 @@
   version: 5.32.0
   origversion: 5.32.0-1.fc43
   status: outdated
+  summary: Fast disk usage analyzer with console interface written in Go
+  licenses:
+    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
+  srcname: gdu
+  binnames:
+    - gdu
+    - gdu-debuginfo
+    - gdu-debugsource
+  visiblename: gdu
+  version: 5.31.0
+  origversion: 5.31.0-1.fc43
+  status: legacy
   summary: Fast disk usage analyzer with console interface written in Go
   licenses:
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT
@@ -684,6 +704,20 @@
     - MIT
   categories:
     - sysutils
+- repo: mageia_9
+  subrepo: core/release
+  srcname: gdu
+  binnames:
+    - gdu
+  visiblename: gdu
+  version: 5.13.2
+  origversion: 5.13.2-1.mga9
+  status: outdated
+  summary: Pretty fast disk usage analyzer written in Go
+  licenses:
+    - MIT
+  categories:
+    - File tools
 - repo: mageia_10
   subrepo: core/release
   srcname: gdu
@@ -712,49 +746,6 @@
     - MIT
   categories:
     - File tools
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: gdu
-  binname: gdu
-  visiblename: gdu
-  version: 5.37.0
-  origversion: 5.37.0-1
-  status: outdated
-  summary: Fast disk usage analyzer
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: gdu
-  binname: gdu
-  visiblename: gdu
-  version: 5.38.0
-  origversion: 5.38.0-1
-  status: newest
-  summary: Fast disk usage analyzer
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: gdu
-  binname: gdu
-  visiblename: gdu
-  version: 5.38.0
-  origversion: 5.38.0-1
-  status: newest
-  summary: Fast disk usage analyzer
-  licenses:
-    - MIT
-- repo: msys2_clang64
-  srcname: mingw-w64-gdu
-  binname: mingw-w64-clang-x86_64-gdu
-  visiblename: mingw-w64-clang-x86_64-gdu
-  version: 5.38.0
-  origversion: 5.38.0-1
-  status: newest
-  summary: Fast disk usage analyzer (mingw-w64)
-  licenses:
-    - spdx:MIT
 - repo: msys2_clangarm64
   srcname: mingw-w64-gdu
   binname: mingw-w64-clang-aarch64-gdu
@@ -875,6 +866,138 @@
     - MIT
   categories:
     - Unspecified
+- repo: parabola
+  subrepo: extra
+  srcname: gdu
+  binname: gdu
+  visiblename: gdu
+  version: 5.38.0
+  origversion: 5.38.0-1
+  status: newest
+  summary: Fast disk usage analyzer
+  licenses:
+    - MIT
+- repo: pardus_21
+  subrepo: main
+  srcname: gdu
+  binnames:
+    - gdu
+  visiblename: gdu
+  version: 4.6.3
+  origversion: 4.6.3-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - daniel@milde.cz
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: gdu
+  binnames:
+    - gdu
+  visiblename: gdu
+  version: 5.25.0
+  origversion: 5.25.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - daniel@milde.cz
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: gdu
+  binnames:
+    - gdu
+  visiblename: gdu
+  version: 5.25.0
+  origversion: 5.25.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - daniel@milde.cz
+  categories:
+    - misc
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: gdu
+  binnames:
+    - gdu
+  visiblename: gdu
+  version: 4.6.3
+  origversion: 4.6.3-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - daniel@milde.cz
+  categories:
+    - admin
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: gdu
+  binnames:
+    - gdu
+  visiblename: gdu
+  version: 5.25.0
+  origversion: 5.25.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - daniel@milde.cz
+  categories:
+    - admin
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: gdu
+  binnames:
+    - gdu
+  visiblename: gdu
+  version: 5.22.0
+  origversion: 5.22.0-1+rpi1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - daniel@milde.cz
+  categories:
+    - admin
+- repo: raspbian_stable
+  subrepo: main
+  srcname: gdu
+  binnames:
+    - gdu
+  visiblename: gdu
+  version: 5.25.0
+  origversion: 5.25.0-1+rpi1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - daniel@milde.cz
+  categories:
+    - admin
+- repo: raspbian_testing
+  subrepo: main
+  srcname: gdu
+  binnames:
+    - gdu
+  visiblename: gdu
+  version: 5.36.1
+  origversion: 5.36.1-1+rpi1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - daniel@milde.cz
+  categories:
+    - admin
+- repo: scoop
+  subrepo: main
+  binname: gdu
+  visiblename: gdu
+  version: 5.38.0
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
 - repo: slackbuilds
   srcname: system/gdu
   visiblename: system/gdu
@@ -946,20 +1069,6 @@
   maintainers:
     - termux@github
 - repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: gdu
-  binnames:
-    - gdu
-  visiblename: gdu
-  version: 5.13.2
-  origversion: 5.13.2-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - daniel@milde.cz
-  categories:
-    - universe/misc
-- repo: ubuntu_22_04
   subrepo: jammy-updates/universe
   srcname: gdu
   binnames:
@@ -970,6 +1079,20 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - daniel@milde.cz
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: gdu
+  binnames:
+    - gdu
+  visiblename: gdu
+  version: 5.13.2
+  origversion: 5.13.2-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
     - daniel@milde.cz
   categories:
     - universe/misc
@@ -1070,126 +1193,3 @@
     - daniel@teddydd.me
   licenses:
     - MIT
-- repo: parabola
-  subrepo: extra
-  srcname: gdu
-  binname: gdu
-  visiblename: gdu
-  version: 5.38.0
-  origversion: 5.38.0-1
-  status: newest
-  summary: Fast disk usage analyzer
-  licenses:
-    - MIT
-- repo: pardus_21
-  subrepo: main
-  srcname: gdu
-  binnames:
-    - gdu
-  visiblename: gdu
-  version: 4.6.3
-  origversion: 4.6.3-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - daniel@milde.cz
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: gdu
-  binnames:
-    - gdu
-  visiblename: gdu
-  version: 5.25.0
-  origversion: 5.25.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - daniel@milde.cz
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: gdu
-  binnames:
-    - gdu
-  visiblename: gdu
-  version: 5.25.0
-  origversion: 5.25.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - daniel@milde.cz
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: gdu
-  binnames:
-    - gdu
-  visiblename: gdu
-  version: 5.36.1
-  origversion: 5.36.1-1+rpi1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - daniel@milde.cz
-  categories:
-    - admin
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: gdu
-  binnames:
-    - gdu
-  visiblename: gdu
-  version: 4.6.3
-  origversion: 4.6.3-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - daniel@milde.cz
-  categories:
-    - admin
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: gdu
-  binnames:
-    - gdu
-  visiblename: gdu
-  version: 5.25.0
-  origversion: 5.25.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - daniel@milde.cz
-  categories:
-    - admin
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: gdu
-  binnames:
-    - gdu
-  visiblename: gdu
-  version: 5.22.0
-  origversion: 5.22.0-1+rpi1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - daniel@milde.cz
-  categories:
-    - admin
-- repo: raspbian_stable
-  subrepo: main
-  srcname: gdu
-  binnames:
-    - gdu
-  visiblename: gdu
-  version: 5.25.0
-  origversion: 5.25.0-1+rpi1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - daniel@milde.cz
-  categories:
-    - admin
