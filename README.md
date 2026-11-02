@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,169 · **Forks**: 250 · **Open issues**: 260 · **Contributors**: 74
+- **Stars**: 6,173 · **Forks**: 251 · **Open issues**: 260 · **Contributors**: 74
 
 ## Totals (cumulative)
 
-- **Releases**: 96 · **Merged PRs**: 307 · **Open PRs**: 23 · **Closed issues**: 221 · **Open issues**: 39 · **Commits**: 936
+- **Releases**: 96 · **Merged PRs**: 307 · **Open PRs**: 24 · **Closed issues**: 221 · **Open issues**: 39 · **Commits**: 936
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-02 | 1 | 4 | 16 | 4 | 0 | 4 |
-| last60d | 2026-09-02 | 1 | 22 | 21 | 8 | 1 | 30 |
-| 90d | 2026-08-03 | 2 | 49 | 21 | 12 | 2 | 71 |
-| last180d | 2026-05-05 | 2 | 86 | 21 | 19 | 3 | 94 |
-| 360d | 2025-11-06 | 10 | 164 | 21 | 35 | 9 | 196 |
-| last720d | 2024-11-11 | 13 | 189 | 21 | 57 | 16 | 242 |
+| 30d | 2026-10-03 | 1 | 4 | 17 | 4 | 0 | 4 |
+| last60d | 2026-09-03 | 1 | 18 | 22 | 7 | 1 | 30 |
+| 90d | 2026-08-04 | 2 | 49 | 22 | 12 | 2 | 71 |
+| last180d | 2026-05-06 | 2 | 86 | 22 | 19 | 3 | 94 |
+| 360d | 2025-11-07 | 10 | 164 | 22 | 35 | 9 | 196 |
+| last720d | 2024-11-12 | 13 | 188 | 22 | 57 | 16 | 242 |
 
 ## Release assets
 
@@ -103,7 +103,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **92** distros on [repology.org](https://repology.org/project/gdu). **20** are ✅ on the latest upstream release, **67** are ⚠️ on an older version.
+Reported by **92** distros on [repology.org](https://repology.org/project/gdu). **19** are ✅ on the latest upstream release, **68** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -129,4 +129,4 @@ Install metadata for gdu lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261101.yml` · 2026-11-01T07:09:25Z._
+_Snapshot: `data/card/261102.yml` · 2026-11-02T07:04:57Z._
