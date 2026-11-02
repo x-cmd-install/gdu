@@ -1,25 +1,3 @@
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: gdu
-  binname: gdu
-  visiblename: gdu
-  version: 5.37.0
-  origversion: 5.37.0-1
-  status: outdated
-  summary: Fast disk usage analyzer
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: gdu
-  binname: gdu
-  visiblename: gdu
-  version: 5.38.0
-  origversion: 5.38.0-1
-  status: newest
-  summary: Fast disk usage analyzer
-  licenses:
-    - MIT
 - repo: manjaro_unstable
   subrepo: extra
   srcname: gdu
@@ -31,6 +9,26 @@
   summary: Fast disk usage analyzer
   licenses:
     - MIT
+- repo: msys2_clang64
+  srcname: mingw-w64-gdu
+  binname: mingw-w64-clang-x86_64-gdu
+  visiblename: mingw-w64-clang-x86_64-gdu
+  version: 5.38.0
+  origversion: 5.38.0-1
+  status: newest
+  summary: Fast disk usage analyzer (mingw-w64)
+  licenses:
+    - spdx:MIT
+- repo: msys2_clangarm64
+  srcname: mingw-w64-gdu
+  binname: mingw-w64-clang-aarch64-gdu
+  visiblename: mingw-w64-clang-aarch64-gdu
+  version: 5.38.0
+  origversion: 5.38.0-1
+  status: newest
+  summary: Fast disk usage analyzer (mingw-w64)
+  licenses:
+    - spdx:MIT
 - repo: alpine_3_20
   subrepo: community
   srcname: gdu
@@ -431,16 +429,6 @@
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT
   categories:
     - Unspecified
-- repo: msys2_clang64
-  srcname: mingw-w64-gdu
-  binname: mingw-w64-clang-x86_64-gdu
-  visiblename: mingw-w64-clang-x86_64-gdu
-  version: 5.38.0
-  origversion: 5.38.0-1
-  status: newest
-  summary: Fast disk usage analyzer (mingw-w64)
-  licenses:
-    - spdx:MIT
 - repo: epel_10
   srcname: gdu
   binnames:
@@ -487,6 +475,20 @@
   categories:
     - Unspecified
 - repo: fedora_42
+  subrepo: release
+  srcname: gdu
+  binnames:
+    - gdu
+  visiblename: gdu
+  version: 5.30.1
+  origversion: 5.30.1-2.fc42
+  status: legacy
+  summary: Fast disk usage analyzer with console interface written in Go
+  licenses:
+    - MIT AND Apache-2.0 AND BSD-3-Clause AND BSD-2-Clause AND ISC AND (BSD-3-Clause AND Apache-2.0 AND MIT) AND (MIT AND Apache-2.0)
+  categories:
+    - Unspecified
+- repo: fedora_42
   subrepo: updates
   srcname: gdu
   binnames:
@@ -500,20 +502,6 @@
   summary: Fast disk usage analyzer with console interface written in Go
   licenses:
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT
-  categories:
-    - Unspecified
-- repo: fedora_42
-  subrepo: release
-  srcname: gdu
-  binnames:
-    - gdu
-  visiblename: gdu
-  version: 5.30.1
-  origversion: 5.30.1-2.fc42
-  status: legacy
-  summary: Fast disk usage analyzer with console interface written in Go
-  licenses:
-    - MIT AND Apache-2.0 AND BSD-3-Clause AND BSD-2-Clause AND ISC AND (BSD-3-Clause AND Apache-2.0 AND MIT) AND (MIT AND Apache-2.0)
   categories:
     - Unspecified
 - repo: fedora_43
@@ -746,16 +734,28 @@
     - MIT
   categories:
     - File tools
-- repo: msys2_clangarm64
-  srcname: mingw-w64-gdu
-  binname: mingw-w64-clang-aarch64-gdu
-  visiblename: mingw-w64-clang-aarch64-gdu
-  version: 5.38.0
-  origversion: 5.38.0-1
-  status: newest
-  summary: Fast disk usage analyzer (mingw-w64)
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: gdu
+  binname: gdu
+  visiblename: gdu
+  version: 5.25.0
+  origversion: 5.25.0-1
+  status: outdated
+  summary: Fast disk usage analyzer
   licenses:
-    - spdx:MIT
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: gdu
+  binname: gdu
+  visiblename: gdu
+  version: 5.25.0
+  origversion: 5.25.0-1
+  status: outdated
+  summary: Fast disk usage analyzer
+  licenses:
+    - MIT
 - repo: msys2_ucrt64
   srcname: mingw-w64-gdu
   binname: mingw-w64-ucrt-x86_64-gdu
@@ -1069,20 +1069,6 @@
   maintainers:
     - termux@github
 - repo: ubuntu_22_04
-  subrepo: jammy-updates/universe
-  srcname: gdu
-  binnames:
-    - gdu
-  visiblename: gdu
-  version: 5.13.2
-  origversion: 5.13.2-1ubuntu0.22.04.3
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - daniel@milde.cz
-  categories:
-    - universe/misc
-- repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: gdu
   binnames:
@@ -1096,14 +1082,14 @@
     - daniel@milde.cz
   categories:
     - universe/misc
-- repo: ubuntu_24_04
-  subrepo: noble-updates/universe
+- repo: ubuntu_22_04
+  subrepo: jammy-updates/universe
   srcname: gdu
   binnames:
     - gdu
   visiblename: gdu
-  version: 5.25.0
-  origversion: 5.25.0-1ubuntu0.24.04.3
+  version: 5.13.2
+  origversion: 5.13.2-1ubuntu0.22.04.3
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -1121,6 +1107,20 @@
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
+    - daniel@milde.cz
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble-updates/universe
+  srcname: gdu
+  binnames:
+    - gdu
+  visiblename: gdu
+  version: 5.25.0
+  origversion: 5.25.0-1ubuntu0.24.04.3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - daniel@milde.cz
   categories:
     - universe/misc
