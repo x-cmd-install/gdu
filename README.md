@@ -14,11 +14,11 @@ x install gdu
 
 ## Code insight
 
-Total: **39,532** lines of code across **247** files in the top 5 languages.
+Total: **39,885** lines of code across **249** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 32,481 | 2,444 | 6,733 | 203 |
+| Go | 32,834 | 2,493 | 6,784 | 205 |
 | Tsx | 2,592 | 125 | 275 | 19 |
 | Json | 2,448 | 0 | 4 | 7 |
 | TypeScript | 938 | 89 | 122 | 16 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v5.38.0` (2026-10-05)
-- **Last commit**: 2026-10-25
+- **Last commit**: 2026-11-02
 - **Assets in release**: 32
 
 ## Popularity
 
-- **Stars**: 6,173 · **Forks**: 251 · **Open issues**: 260 · **Contributors**: 74
+- **Stars**: 6,174 · **Forks**: 253 · **Open issues**: 261 · **Contributors**: 78
 
 ## Totals (cumulative)
 
-- **Releases**: 96 · **Merged PRs**: 307 · **Open PRs**: 24 · **Closed issues**: 221 · **Open issues**: 39 · **Commits**: 936
+- **Releases**: 96 · **Merged PRs**: 314 · **Open PRs**: 19 · **Closed issues**: 223 · **Open issues**: 38 · **Commits**: 943
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-03 | 1 | 4 | 17 | 4 | 0 | 4 |
-| last60d | 2026-09-03 | 1 | 18 | 22 | 7 | 1 | 30 |
-| 90d | 2026-08-04 | 2 | 49 | 22 | 12 | 2 | 71 |
-| last180d | 2026-05-06 | 2 | 86 | 22 | 19 | 3 | 94 |
-| 360d | 2025-11-07 | 10 | 164 | 22 | 35 | 9 | 196 |
-| last720d | 2024-11-12 | 13 | 188 | 22 | 57 | 16 | 242 |
+| 30d | 2026-10-04 | 1 | 8 | 16 | 4 | 1 | 11 |
+| last60d | 2026-09-04 | 1 | 25 | 17 | 7 | 2 | 37 |
+| 90d | 2026-08-05 | 2 | 56 | 17 | 13 | 2 | 78 |
+| last180d | 2026-05-07 | 2 | 92 | 17 | 20 | 3 | 101 |
+| 360d | 2025-11-08 | 10 | 171 | 17 | 36 | 9 | 203 |
+| last720d | 2024-11-13 | 13 | 195 | 17 | 59 | 15 | 249 |
 
 ## Release assets
 
@@ -129,4 +129,4 @@ Install metadata for gdu lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261102.yml` · 2026-11-02T07:04:57Z._
+_Snapshot: `data/card/261103.yml` · 2026-11-03T07:58:48Z._
