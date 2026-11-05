@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,176 · **Forks**: 253 · **Open issues**: 261 · **Contributors**: 85
+- **Stars**: 6,181 · **Forks**: 254 · **Open issues**: 262 · **Contributors**: 85
 
 ## Totals (cumulative)
 
-- **Releases**: 96 · **Merged PRs**: 330 · **Open PRs**: 4 · **Closed issues**: 225 · **Open issues**: 36 · **Commits**: 959
+- **Releases**: 96 · **Merged PRs**: 330 · **Open PRs**: 5 · **Closed issues**: 225 · **Open issues**: 37 · **Commits**: 959
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 1 | 22 | 2 | 5 | 0 | 27 |
-| last60d | 2026-09-05 | 1 | 39 | 2 | 8 | 1 | 53 |
-| 90d | 2026-08-06 | 2 | 72 | 2 | 14 | 1 | 94 |
-| last180d | 2026-05-08 | 2 | 105 | 2 | 21 | 2 | 117 |
-| 360d | 2025-11-09 | 10 | 187 | 2 | 37 | 8 | 219 |
-| last720d | 2024-11-14 | 13 | 211 | 2 | 60 | 14 | 264 |
+| 30d | 2026-10-06 | 0 | 22 | 3 | 5 | 1 | 27 |
+| last60d | 2026-09-06 | 1 | 39 | 3 | 7 | 2 | 53 |
+| 90d | 2026-08-07 | 2 | 72 | 3 | 14 | 2 | 94 |
+| last180d | 2026-05-09 | 2 | 105 | 3 | 21 | 3 | 117 |
+| 360d | 2025-11-10 | 10 | 187 | 3 | 37 | 9 | 219 |
+| last720d | 2024-11-15 | 13 | 211 | 3 | 60 | 15 | 264 |
 
 ## Release assets
 
@@ -129,4 +129,4 @@ Install metadata for gdu lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T07:28:09Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T07:43:06Z._
