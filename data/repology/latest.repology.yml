@@ -1,34 +1,26 @@
-- repo: manjaro_unstable
-  subrepo: extra
+- repo: chimera
+  subrepo: user
   srcname: gdu
-  binname: gdu
-  visiblename: gdu
-  version: 5.38.0
-  origversion: 5.38.0-1
-  status: newest
-  summary: Fast disk usage analyzer
+  binname: gdu-doc
+  visiblename: gdu-doc
+  version: 5.36.1
+  origversion: 5.36.1-r4
+  status: outdated
+  summary: Disk usage analyzer (documentation)
   licenses:
     - MIT
-- repo: msys2_clang64
-  srcname: mingw-w64-gdu
-  binname: mingw-w64-clang-x86_64-gdu
-  visiblename: mingw-w64-clang-x86_64-gdu
-  version: 5.38.0
-  origversion: 5.38.0-1
-  status: newest
-  summary: Fast disk usage analyzer (mingw-w64)
+- repo: nix_stable_25_11
+  srcname: gdu
+  visiblename: gdu
+  version: 5.32.0
+  origversion: null
+  status: outdated
+  summary: Disk usage analyzer with console interface
+  maintainers:
+    - mail@fabian-affolter.ch
+    - zowoq@github
   licenses:
-    - spdx:MIT
-- repo: msys2_clangarm64
-  srcname: mingw-w64-gdu
-  binname: mingw-w64-clang-aarch64-gdu
-  visiblename: mingw-w64-clang-aarch64-gdu
-  version: 5.38.0
-  origversion: 5.38.0-1
-  status: newest
-  summary: Fast disk usage analyzer (mingw-w64)
-  licenses:
-    - spdx:MIT
+    - MIT
 - repo: alpine_3_20
   subrepo: community
   srcname: gdu
@@ -207,7 +199,7 @@
   visiblename: gdu
   version: 5.38.0
   origversion: 5.38.0-alt1
-  status: newest
+  status: outdated
   summary: Fast disk usage analyzer with console interface written in Go
   maintainers:
     - lav@altlinux.ru
@@ -234,7 +226,7 @@
   visiblename: gdu
   version: 5.38.0
   origversion: 5.38.0-1
-  status: newest
+  status: outdated
   summary: Fast disk usage analyzer
   licenses:
     - MIT
@@ -271,17 +263,6 @@
   origversion: 5.36.1-r4
   status: outdated
   summary: Disk usage analyzer
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: user
-  srcname: gdu
-  binname: gdu-doc
-  visiblename: gdu-doc
-  version: 5.36.1
-  origversion: 5.36.1-r4
-  status: outdated
-  summary: Disk usage analyzer (documentation)
   licenses:
     - MIT
 - repo: chimera
@@ -475,6 +456,22 @@
   categories:
     - Unspecified
 - repo: fedora_42
+  subrepo: updates
+  srcname: gdu
+  binnames:
+    - gdu
+    - gdu-debuginfo
+    - gdu-debugsource
+  visiblename: gdu
+  version: 5.32.0
+  origversion: 5.32.0-1.fc42
+  status: outdated
+  summary: Fast disk usage analyzer with console interface written in Go
+  licenses:
+    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT
+  categories:
+    - Unspecified
+- repo: fedora_42
   subrepo: release
   srcname: gdu
   binnames:
@@ -488,17 +485,17 @@
     - MIT AND Apache-2.0 AND BSD-3-Clause AND BSD-2-Clause AND ISC AND (BSD-3-Clause AND Apache-2.0 AND MIT) AND (MIT AND Apache-2.0)
   categories:
     - Unspecified
-- repo: fedora_42
-  subrepo: updates
+- repo: fedora_43
+  subrepo: release
   srcname: gdu
   binnames:
     - gdu
     - gdu-debuginfo
     - gdu-debugsource
   visiblename: gdu
-  version: 5.32.0
-  origversion: 5.32.0-1.fc42
-  status: outdated
+  version: 5.31.0
+  origversion: 5.31.0-1.fc43
+  status: legacy
   summary: Fast disk usage analyzer with console interface written in Go
   licenses:
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT
@@ -515,22 +512,6 @@
   version: 5.32.0
   origversion: 5.32.0-1.fc43
   status: outdated
-  summary: Fast disk usage analyzer with console interface written in Go
-  licenses:
-    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT
-  categories:
-    - Unspecified
-- repo: fedora_43
-  subrepo: release
-  srcname: gdu
-  binnames:
-    - gdu
-    - gdu-debuginfo
-    - gdu-debugsource
-  visiblename: gdu
-  version: 5.31.0
-  origversion: 5.31.0-1.fc43
-  status: legacy
   summary: Fast disk usage analyzer with console interface written in Go
   licenses:
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT
@@ -574,7 +555,7 @@
   visiblename: sysutils/gdu
   version: 5.38.0
   origversion: 5.38.0_1
-  status: newest
+  status: outdated
   summary: Disk usage analyzer with console interface written in Go
   maintainers:
     - diizzy@freebsd.org
@@ -585,7 +566,7 @@
   visiblename: sys-fs/gdu
   version: 5.38.0
   origversion: null
-  status: newest
+  status: outdated
   summary: Fast disk usage analyzer with console interface written in Go
   maintainers:
     - dev@dyama.net
@@ -607,7 +588,7 @@
 - repo: homebrew
   srcname: gdu
   visiblename: gdu
-  version: 5.38.0
+  version: 5.39.0
   origversion: null
   status: newest
   summary: Disk usage analyzer with console interface written in Go
@@ -667,7 +648,7 @@
   visiblename: sys-fs/gdu
   version: 5.38.0
   origversion: null
-  status: newest
+  status: outdated
   summary: Fast disk usage analyzer with console interface written in Go
   maintainers:
     - dev@dyama.net
@@ -684,7 +665,7 @@
   visiblename: gdu
   version: 5.38.0
   origversion: null
-  status: newest
+  status: outdated
   summary: Disk usage analyzer with console interface written in Go
   maintainers:
     - herbygillot@github
@@ -739,8 +720,8 @@
   srcname: gdu
   binname: gdu
   visiblename: gdu
-  version: 5.25.0
-  origversion: 5.25.0-1
+  version: 5.38.0
+  origversion: 5.38.0-1
   status: outdated
   summary: Fast disk usage analyzer
   licenses:
@@ -750,19 +731,50 @@
   srcname: gdu
   binname: gdu
   visiblename: gdu
-  version: 5.25.0
-  origversion: 5.25.0-1
+  version: 5.38.0
+  origversion: 5.38.0-1
   status: outdated
   summary: Fast disk usage analyzer
   licenses:
     - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: gdu
+  binname: gdu
+  visiblename: gdu
+  version: 5.38.0
+  origversion: 5.38.0-1
+  status: outdated
+  summary: Fast disk usage analyzer
+  licenses:
+    - MIT
+- repo: msys2_clang64
+  srcname: mingw-w64-gdu
+  binname: mingw-w64-clang-x86_64-gdu
+  visiblename: mingw-w64-clang-x86_64-gdu
+  version: 5.38.0
+  origversion: 5.38.0-1
+  status: outdated
+  summary: Fast disk usage analyzer (mingw-w64)
+  licenses:
+    - spdx:MIT
+- repo: msys2_clangarm64
+  srcname: mingw-w64-gdu
+  binname: mingw-w64-clang-aarch64-gdu
+  visiblename: mingw-w64-clang-aarch64-gdu
+  version: 5.38.0
+  origversion: 5.38.0-1
+  status: outdated
+  summary: Fast disk usage analyzer (mingw-w64)
+  licenses:
+    - spdx:MIT
 - repo: msys2_ucrt64
   srcname: mingw-w64-gdu
   binname: mingw-w64-ucrt-x86_64-gdu
   visiblename: mingw-w64-ucrt-x86_64-gdu
   version: 5.38.0
   origversion: 5.38.0-1
-  status: newest
+  status: outdated
   summary: Fast disk usage analyzer (mingw-w64)
   licenses:
     - spdx:MIT
@@ -802,18 +814,6 @@
     - zowoq@github
   licenses:
     - MIT
-- repo: nix_stable_25_11
-  srcname: gdu
-  visiblename: gdu
-  version: 5.32.0
-  origversion: null
-  status: outdated
-  summary: Disk usage analyzer with console interface
-  maintainers:
-    - mail@fabian-affolter.ch
-    - zowoq@github
-  licenses:
-    - MIT
 - repo: nix_stable_26_05
   srcname: gdu
   visiblename: gdu
@@ -831,7 +831,7 @@
   visiblename: gdu
   version: 5.38.0
   origversion: null
-  status: newest
+  status: outdated
   summary: Disk usage analyzer with console interface
   maintainers:
     - mail@fabian-affolter.ch
@@ -873,7 +873,7 @@
   visiblename: gdu
   version: 5.38.0
   origversion: 5.38.0-1
-  status: newest
+  status: outdated
   summary: Fast disk usage analyzer
   licenses:
     - MIT
@@ -993,7 +993,7 @@
   subrepo: main
   binname: gdu
   visiblename: gdu
-  version: 5.38.0
+  version: 5.39.0
   origversion: null
   status: newest
   licenses:
@@ -1003,7 +1003,7 @@
   visiblename: system/gdu
   version: 5.38.0
   origversion: null
-  status: newest
+  status: outdated
   maintainers:
     - meyerwork22@gmail.com
   categories:
@@ -1042,7 +1042,7 @@
   visiblename: bin/gdu
   version: 5.38.0
   origversion: null
-  status: newest
+  status: outdated
   maintainers:
     - anton@samokhvalov.xyz
   categories:
@@ -1051,7 +1051,7 @@
   srcname: bin/gdu
   binname: bin/gdu
   visiblename: bin/gdu
-  version: 5.38.0
+  version: 5.39.0
   origversion: null
   status: newest
   maintainers:
@@ -1062,26 +1062,12 @@
   srcname: gdu
   binname: gdu
   visiblename: gdu
-  version: 5.38.0
+  version: 5.39.0
   origversion: null
   status: newest
   summary: Fast disk usage analyzer with console interface written in Go
   maintainers:
     - termux@github
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: gdu
-  binnames:
-    - gdu
-  visiblename: gdu
-  version: 5.13.2
-  origversion: 5.13.2-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - daniel@milde.cz
-  categories:
-    - universe/misc
 - repo: ubuntu_22_04
   subrepo: jammy-updates/universe
   srcname: gdu
@@ -1093,6 +1079,20 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - daniel@milde.cz
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: gdu
+  binnames:
+    - gdu
+  visiblename: gdu
+  version: 5.13.2
+  origversion: 5.13.2-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
     - daniel@milde.cz
   categories:
     - universe/misc
@@ -1180,6 +1180,20 @@
     - daniel@milde.cz
   categories:
     - universe/misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/universe
+  srcname: gdu
+  binnames:
+    - gdu
+  visiblename: gdu
+  version: 5.36.1
+  origversion: 5.36.1-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - daniel@milde.cz
+  categories:
+    - universe/misc
 - repo: void_x86_64
   subrepo: x86_64
   srcname: gdu
@@ -1187,7 +1201,7 @@
   visiblename: gdu
   version: 5.38.0
   origversion: 5.38.0_1
-  status: newest
+  status: outdated
   summary: Disk usage analyzer intended primarily for SSD disks
   maintainers:
     - daniel@teddydd.me
