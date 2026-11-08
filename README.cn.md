@@ -47,22 +47,22 @@ x install gdu
 
 ## 流行度
 
-- **Star**: 6,186 · **Fork**: 254 · **开放 issue**: 262 · **贡献者**: 86
+- **Star**: 6,189 · **Fork**: 255 · **开放 issue**: 264 · **贡献者**: 86
 
 ## 累计统计
 
-- **发布数**: 97 · **已合并 PR**: 332 · **开放 PR**: 6 · **已关闭 issue**: 226 · **开放 issue**: 36 · **提交数**: 962
+- **发布数**: 97 · **已合并 PR**: 332 · **开放 PR**: 8 · **已关闭 issue**: 226 · **开放 issue**: 38 · **提交数**: 962
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 1 | 24 | 4 | 5 | 0 | 30 |
-| last60d | 2026-09-08 | 2 | 40 | 4 | 8 | 1 | 56 |
-| 90d | 2026-08-09 | 3 | 74 | 4 | 15 | 1 | 97 |
-| last180d | 2026-05-11 | 3 | 107 | 4 | 20 | 2 | 120 |
-| 360d | 2025-11-12 | 11 | 189 | 4 | 38 | 8 | 222 |
-| last720d | 2024-11-17 | 14 | 213 | 4 | 61 | 14 | 267 |
+| 30d | 2026-10-09 | 1 | 24 | 6 | 4 | 2 | 30 |
+| last60d | 2026-09-09 | 2 | 40 | 6 | 8 | 3 | 49 |
+| 90d | 2026-08-10 | 3 | 74 | 6 | 15 | 3 | 94 |
+| last180d | 2026-05-12 | 3 | 107 | 6 | 20 | 4 | 116 |
+| 360d | 2025-11-13 | 11 | 189 | 6 | 38 | 10 | 221 |
+| last720d | 2024-11-18 | 14 | 213 | 6 | 61 | 16 | 267 |
 
 ## Release 资产
 
@@ -103,7 +103,7 @@ x install gdu
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/gdu) 上共有 **93** 个发行版报告此项目。**4** 个 ✅ 已是最新上游版本，**84** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/gdu) 上共有 **93** 个发行版报告此项目。**10** 个 ✅ 已是最新上游版本，**78** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -112,12 +112,12 @@ x install gdu
 | Debian 13 | `5.25.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `5.25.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `5.25.0` | ⚠️ outdated |
-| Arch | `5.38.0` | ⚠️ outdated |
+| Arch | `5.39.0` | ✅ latest |
 | Homebrew | `5.39.0` | ✅ latest |
 | Fedora rawhide | `5.32.0` | ⚠️ outdated |
 | Nix unstable | `5.38.0` | ⚠️ outdated |
 | Void | `5.38.0` | ⚠️ outdated |
-| Alpine edge | `5.36.1` | ⚠️ outdated |
+| Alpine edge | `5.39.0` | ✅ latest |
 | openSUSE Tumbleweed | `5.36.1` | ⚠️ outdated |
 
 ## 改进这些数据
@@ -129,4 +129,4 @@ gdu 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261107.yml` · 2026-11-07T06:54:54Z._
+_数据快照: `data/card/261108.yml` · 2026-11-08T06:56:22Z._

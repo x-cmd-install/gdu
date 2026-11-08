@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 6,186 · **Forks**: 254 · **Open issues**: 262 · **Contributors**: 86
+- **Stars**: 6,189 · **Forks**: 255 · **Open issues**: 264 · **Contributors**: 86
 
 ## Totals (cumulative)
 
-- **Releases**: 97 · **Merged PRs**: 332 · **Open PRs**: 6 · **Closed issues**: 226 · **Open issues**: 36 · **Commits**: 962
+- **Releases**: 97 · **Merged PRs**: 332 · **Open PRs**: 8 · **Closed issues**: 226 · **Open issues**: 38 · **Commits**: 962
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 1 | 24 | 4 | 5 | 0 | 30 |
-| last60d | 2026-09-08 | 2 | 40 | 4 | 8 | 1 | 56 |
-| 90d | 2026-08-09 | 3 | 74 | 4 | 15 | 1 | 97 |
-| last180d | 2026-05-11 | 3 | 107 | 4 | 20 | 2 | 120 |
-| 360d | 2025-11-12 | 11 | 189 | 4 | 38 | 8 | 222 |
-| last720d | 2024-11-17 | 14 | 213 | 4 | 61 | 14 | 267 |
+| 30d | 2026-10-09 | 1 | 24 | 6 | 4 | 2 | 30 |
+| last60d | 2026-09-09 | 2 | 40 | 6 | 8 | 3 | 49 |
+| 90d | 2026-08-10 | 3 | 74 | 6 | 15 | 3 | 94 |
+| last180d | 2026-05-12 | 3 | 107 | 6 | 20 | 4 | 116 |
+| 360d | 2025-11-13 | 11 | 189 | 6 | 38 | 10 | 221 |
+| last720d | 2024-11-18 | 14 | 213 | 6 | 61 | 16 | 267 |
 
 ## Release assets
 
@@ -103,7 +103,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **93** distros on [repology.org](https://repology.org/project/gdu). **4** are ✅ on the latest upstream release, **84** are ⚠️ on an older version.
+Reported by **93** distros on [repology.org](https://repology.org/project/gdu). **10** are ✅ on the latest upstream release, **78** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -112,12 +112,12 @@ Reported by **93** distros on [repology.org](https://repology.org/project/gdu). 
 | Debian 13 | `5.25.0` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `5.25.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `5.25.0` | ⚠️ outdated |
-| Arch | `5.38.0` | ⚠️ outdated |
+| Arch | `5.39.0` | ✅ latest |
 | Homebrew | `5.39.0` | ✅ latest |
 | Fedora rawhide | `5.32.0` | ⚠️ outdated |
 | Nix unstable | `5.38.0` | ⚠️ outdated |
 | Void | `5.38.0` | ⚠️ outdated |
-| Alpine edge | `5.36.1` | ⚠️ outdated |
+| Alpine edge | `5.39.0` | ✅ latest |
 | openSUSE Tumbleweed | `5.36.1` | ⚠️ outdated |
 
 ## Improve this data
@@ -129,4 +129,4 @@ Install metadata for gdu lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T06:54:53Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T06:56:22Z._
