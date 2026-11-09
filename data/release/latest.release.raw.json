@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 32328808,
       "digest": "sha256:6c67483203c6c164ea5deb8446e01f5858d8010f02bc52b5a7d9aece9d711a05",
-      "download_count": 9,
+      "download_count": 10,
       "created_at": "2026-11-06T23:10:56Z",
       "updated_at": "2026-11-06T23:10:58Z",
       "browser_download_url": "https://github.com/dundee/gdu/releases/download/v5.39.0/gdu-5.39.0.tgz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 4010,
       "digest": "sha256:7ca53c0ec87defd69534ea5615ae4bbea4c67df2003ae66aa0640ce12453afae",
-      "download_count": 9,
+      "download_count": 15,
       "created_at": "2026-11-06T23:10:56Z",
       "updated_at": "2026-11-06T23:10:56Z",
       "browser_download_url": "https://github.com/dundee/gdu/releases/download/v5.39.0/gdu.1.tgz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 9070871,
       "digest": "sha256:b3b966daaa18f743f4d25c194fe22b383c5232e437c39e3875712ef9a78115ec",
-      "download_count": 20,
+      "download_count": 24,
       "created_at": "2026-11-06T23:10:56Z",
       "updated_at": "2026-11-06T23:10:57Z",
       "browser_download_url": "https://github.com/dundee/gdu/releases/download/v5.39.0/gdu_darwin_amd64.tgz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 8492999,
       "digest": "sha256:320a43faaa4e57928218292f70941581f334768477f337c641dd01aa8c904ba8",
-      "download_count": 31,
+      "download_count": 45,
       "created_at": "2026-11-06T23:10:56Z",
       "updated_at": "2026-11-06T23:10:57Z",
       "browser_download_url": "https://github.com/dundee/gdu/releases/download/v5.39.0/gdu_darwin_arm64.tgz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 8879045,
       "digest": "sha256:9e47e6c6655c2022a809b899a0ffd5ee1913df8a3e32891334fb50f33dda7792",
-      "download_count": 8,
+      "download_count": 11,
       "created_at": "2026-11-06T23:10:56Z",
       "updated_at": "2026-11-06T23:10:57Z",
       "browser_download_url": "https://github.com/dundee/gdu/releases/download/v5.39.0/gdu_freebsd_amd64.tgz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 9443444,
       "digest": "sha256:b2e519b7c9ef54013d6ab035222ddbb195fa275d8bb160ab5f9f085410fdb647",
-      "download_count": 188,
+      "download_count": 357,
       "created_at": "2026-11-06T23:10:56Z",
       "updated_at": "2026-11-06T23:10:57Z",
       "browser_download_url": "https://github.com/dundee/gdu/releases/download/v5.39.0/gdu_linux_amd64.tgz"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 9071445,
       "digest": "sha256:7e1036cba1696ecceda40ff79dacd43db9c157fa137ea5d50e4a198b047418a1",
-      "download_count": 33,
+      "download_count": 62,
       "created_at": "2026-11-06T23:10:56Z",
       "updated_at": "2026-11-06T23:10:57Z",
       "browser_download_url": "https://github.com/dundee/gdu/releases/download/v5.39.0/gdu_linux_amd64_static.tgz"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 8248659,
       "digest": "sha256:95900a16b9f9dad97f975b667644ddc073a1b377e95a0b4dfdf50045bf556ad0",
-      "download_count": 65,
+      "download_count": 134,
       "created_at": "2026-11-06T23:10:56Z",
       "updated_at": "2026-11-06T23:10:57Z",
       "browser_download_url": "https://github.com/dundee/gdu/releases/download/v5.39.0/gdu_linux_arm64.tgz"
@@ -1075,7 +1075,7 @@
       "state": "uploaded",
       "size": 9128607,
       "digest": "sha256:2c2c28a4edeb1a2742076ede3a0fc7851589d482c8cf679f293faa17ed9888b9",
-      "download_count": 285,
+      "download_count": 409,
       "created_at": "2026-11-06T23:10:56Z",
       "updated_at": "2026-11-06T23:10:57Z",
       "browser_download_url": "https://github.com/dundee/gdu/releases/download/v5.39.0/gdu_windows_amd64.exe.zip"
@@ -1111,7 +1111,7 @@
       "state": "uploaded",
       "size": 8252528,
       "digest": "sha256:811748098f890bb9f86c76025199856914c8d8329b6cc13b3293a92b816c6f10",
-      "download_count": 9,
+      "download_count": 11,
       "created_at": "2026-11-06T23:10:56Z",
       "updated_at": "2026-11-06T23:10:57Z",
       "browser_download_url": "https://github.com/dundee/gdu/releases/download/v5.39.0/gdu_windows_arm64.exe.zip"
@@ -1147,7 +1147,7 @@
       "state": "uploaded",
       "size": 2596,
       "digest": "sha256:769e6cd164385ae4b1464f557018ba3d0d1f572c53c074370f75551681cca4ea",
-      "download_count": 62,
+      "download_count": 69,
       "created_at": "2026-11-06T23:10:56Z",
       "updated_at": "2026-11-06T23:10:56Z",
       "browser_download_url": "https://github.com/dundee/gdu/releases/download/v5.39.0/sha256sums.txt"
@@ -1183,7 +1183,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": "sha256:aa59471a791f8fbb943cd91905df86b12423d688485f25aa7e74a2ab71f669ed",
-      "download_count": 11,
+      "download_count": 14,
       "created_at": "2026-11-06T23:10:56Z",
       "updated_at": "2026-11-06T23:10:56Z",
       "browser_download_url": "https://github.com/dundee/gdu/releases/download/v5.39.0/sha256sums.txt.asc"
@@ -1194,13 +1194,13 @@
   "body": "# What's New\r\n\r\nThis release helps you find what is safe to delete in the web UI, adds a working\r\ntrash on macOS, reports the space reflinked files really take up, and fixes a\r\nnumber of disk usage miscounts. Below is a walkthrough of each change.\r\n\r\n## Cleanup projections in the web UI\r\n\r\nThe treemap can now highlight what is safe to clean up. Use the projection\r\nselector in the header (or press `P`) to switch the coloring. The tile area\r\nalways stays the size:\r\n\r\n- **Location** - the default coloring by top-level directory.\r\n- **Cleanup** - everything is grey except cleanup candidates. *Safe* ones are\r\n  strong orange. These are regenerated by their tool, e.g. `node_modules` next\r\n  to `package.json`, `target` next to `Cargo.toml`, `__pycache__`, the Go,\r\n  Gradle, Cargo, npm, uv and Homebrew caches, and app caches. Ones to *review\r\n  first* are muted gold: downloaded ML models, installed toolchains such as\r\n  `~/.rustup` or `~/.nvm`, installers, virtualenvs, `dist`/`build` and\r\n  git-ignored files.\r\n- **Age** - colored by the latest change inside an item.\r\n- **By category** - candidates in the current directory grouped by category, so\r\n  cache space spread over many small directories shows up as one block.\r\n\r\nThe legend shows how much space each category takes. Click a category to\r\nhighlight only its items. Hovering a candidate shows what it is and how to\r\nremove it cleanly (e.g. `ollama rm` for Ollama models). Candidates are found in\r\nthe background after the scan and are only highlighted. Deleting them is still\r\nup to you.\r\n\r\nPaths can be excluded and custom rules added in the `cleanup` section of the\r\nconfig file:\r\n\r\n```yaml\r\ncleanup:\r\n  exclude: [~/work/current-project]\r\n  rules:\r\n    - category: build-artifact\r\n      confidence: safe\r\n      dir: .gradle\r\n      markers: [build.gradle, build.gradle.kts]\r\n      hint: Rebuilt by Gradle\r\n```\r\n\r\nDeletion in the web UI now runs in the background. The item is drawn hatched\r\nright away, you can delete more items and keep browsing in the meantime, and if\r\na deletion fails, the item comes back with the reason.\r\n\r\n_by @mikhail-angelov in #697_\r\n\r\n## Move to trash on macOS\r\n\r\nThe `D` key in the terminal UI and \"Move to Trash\" in the web UI now work on\r\nmacOS with no setup. Gdu runs the system `/usr/bin/trash` command, which moves\r\nitems into the Finder trash so you can put them back from there. It ships with\r\nmacOS 15 (Sequoia) and later. On older releases, gdu shows an error that points\r\nyou to `--trash-command`.\r\n\r\n_by @mikhail-angelov in #698_\r\n\r\n## Exclusive size for reflinked files\r\n\r\nOn filesystems with reflinks (XFS, btrfs, bcachefs, ...) several files can share\r\nthe same data. `stat` counts that shared data once for every file, so a\r\ndirectory full of clones looks huge even though deleting it frees almost\r\nnothing. The new `--exclusive-size` flag (Linux only) counts only the bytes a\r\nfile does not share with other files, which is what deleting it would free:\r\n\r\n```\r\ngdu --exclusive-size /some/dir\r\n```\r\n\r\nThe figure replaces disk usage everywhere (sorting, bars, totals and the `dsize`\r\nvalue in exports). Apparent size is unchanged. Exports gain an optional `shsize`\r\nkey with the shared bytes, which can also be selected with `--output-attrs`.\r\nWhere a filesystem does not support the needed `FIEMAP` call, gdu falls back to\r\nthe regular figure. See\r\n[Reflinks and shared extents](https://github.com/dundee/gdu#reflinks-and-shared-extents)\r\nfor details.\r\n\r\n_by @jamesbraid in #710_\r\n\r\n## Unreadable directories marked in JSON exports\r\n\r\nThe JSON export used to look exactly the same whether the scan was complete or\r\nnot. A directory that gdu could not fully read is now written with\r\n`\"read_error\":true` (the same key ncdu uses) and gets its `!` flag back when you\r\nimport the file. The key is written regardless of `--output-attrs`.\r\n\r\n_by @jamesbraid in #712_\r\n\r\n## Choose the shell opened with the b key\r\n\r\nThe shell spawned with the `b` key can now be set with `--shell` or in the\r\nconfiguration file:\r\n\r\n```\r\ngdu --shell /usr/bin/fish\r\n```\r\n\r\n```yaml\r\nshell: /usr/bin/fish\r\n```\r\n\r\nOn Windows, gdu now stays open when you exit the shell instead of quitting.\r\n\r\n_by @timbretimber in #722 and #721_\r\n\r\n## More accurate disk usage\r\n\r\nSeveral miscounts were fixed:\r\n\r\n- **Directories** are now charged the blocks they really use, as `du` does. Small\r\n  XFS directories stored inline report `0` instead of 4 KiB. On other\r\n  filesystems, the directory's own blocks are added to the total. _(@shivampwm2020, #694)_\r\n- **Hard links** in the scanned root directory are counted once, so the default\r\n  non-interactive scan no longer reports up to twice the real usage. _(@mabunemeh, #709)_\r\n- **Windows**: files compressed with NTFS compression and sparse files count\r\n  their size on disk instead of their full length. _(@nk-batman21, #713)_\r\n- **OneDrive online-only files** now show zero disk usage and keep their real\r\n  apparent size. Previously it was the other way around. _(@AdamMagued, #692)_\r\n\r\n## Better `--no-cross` (`-x`)\r\n\r\n- `-x` no longer crosses into btrfs subvolumes and snapshots. Like `du -x`, it\r\n  now skips any directory on a different device than its parent. _(@simon04, #711)_\r\n- Mount points are found correctly when the scanned path is a symlink, such as\r\n  `/Volumes/Macintosh HD` on macOS. _(@itssali, #705)_\r\n\r\n## Non-interactive output fixes\r\n\r\n- `sorting.by` and `sorting.order` from the configuration file are now honored\r\n  in non-interactive listings, including `--depth`. `--reverse-sort` reverses\r\n  the configured order. _(@kok-o, #703)_\r\n- `--show-item-count` prints the same count as the TUI and web UI, whichever\r\n  analyzer is used. _(@LuisFigueroaG, #691)_\r\n- Empty and unreadable top-level directories are marked with `e` and `!`.\r\n  _(@LuisFigueroaG, #716)_\r\n\r\n## Summary of all changes\r\n* feat(webui): highlight files that are safe to clean up by @dundee in https://github.com/dundee/gdu/pull/697\r\n* feat: trash for MacOS by @dundee in https://github.com/dundee/gdu/pull/698\r\n* feat: add --exclusive-size to report bytes not shared by reflinks by @jamesbraid in https://github.com/dundee/gdu/pull/710\r\n* feat: mark unreadable directories in the JSON export by @jamesbraid in https://github.com/dundee/gdu/pull/712\r\n* feat: add option to configure shell opened with b key by @timbretimber in https://github.com/dundee/gdu/pull/722\r\n* fix: report actual st_blocks for directories (XFS inline dirs) by @shivampwm2020 in https://github.com/dundee/gdu/pull/694\r\n* fix(analyze): count root-level hard links only once by @mabunemeh in https://github.com/dundee/gdu/pull/709\r\n* fix(analyze): use on-disk size for compressed and sparse files on Windows by @nk-batman21 in https://github.com/dundee/gdu/pull/713\r\n* fix(analyze): zero disk usage instead of apparent size for online-only files by @AdamMagued in https://github.com/dundee/gdu/pull/692\r\n* fix: -x does not cross into btrfs subvolumes and snapshots by @simon04 in https://github.com/dundee/gdu/pull/711\r\n* fix(device): resolve symlinks in the scanned root for --no-cross by @itssali in https://github.com/dundee/gdu/pull/705\r\n* fix(stdout): honor configured sorting in non-interactive listings by @kok-o in https://github.com/dundee/gdu/pull/703\r\n* fix(stdout): print the displayed item count with --show-item-count by @LuisFigueroaG in https://github.com/dundee/gdu/pull/691\r\n* fix(stdout): mark empty and unreadable top-level directories by @LuisFigueroaG in https://github.com/dundee/gdu/pull/716\r\n* fix(tui): keep tui open after shell exit on windows by @timbretimber in https://github.com/dundee/gdu/pull/721\r\n* fix(tui): clarify export shortcut in quit warning by @voidsipp in https://github.com/dundee/gdu/pull/717\r\n* fix: make install-dev-dependencies by @dcadolph in https://github.com/dundee/gdu/pull/704\r\n* chore(deps): bump golang.org/x/text from 0.41.0 to 0.43.0 by @dependabot[bot] in https://github.com/dundee/gdu/pull/677\r\n* chore(deps): bump github.com/ebitengine/purego from 0.10.2 to 0.11.2 by @dependabot[bot] in https://github.com/dundee/gdu/pull/678\r\n* chore(deps): bump golang.org/x/sys from 0.47.0 to 0.49.0 by @dependabot[bot] in https://github.com/dundee/gdu/pull/679\r\n* chore(deps): bump github.com/ulikunitz/xz from 0.5.15 to 0.5.17 by @dependabot[bot] in https://github.com/dundee/gdu/pull/680\r\n* chore(deps): bump github.com/klauspost/compress from 1.18.1 to 1.18.7 by @dependabot[bot] in https://github.com/dundee/gdu/pull/702\r\n* chore(deps): bump modernc.org/sqlite from 1.59.0 to 1.61.0 by @dependabot[bot] in https://github.com/dundee/gdu/pull/715\r\n* chore(deps): bump github/codeql-action from 4.38.1 to 4.39.1 by @dependabot[bot] in https://github.com/dundee/gdu/pull/707\r\n* chore(deps): bump docker/login-action from 4.6.0 to 4.7.0 by @dependabot[bot] in https://github.com/dundee/gdu/pull/708\r\n* chore(deps): bump source-map-js from 1.2.1 to 1.2.2 in /webui/frontend by @dependabot[bot] in https://github.com/dundee/gdu/pull/699\r\n* chore(deps-dev): bump vite from 8.2.1 to 8.3.5 in /webui/frontend by @dependabot[bot] in https://github.com/dundee/gdu/pull/701\r\n* chore(deps): bump @vitest/mocker and vitest in /webui/frontend by @dependabot[bot] in https://github.com/dundee/gdu/pull/706\r\n\r\n## New Contributors\r\n* @LuisFigueroaG made their first contribution in https://github.com/dundee/gdu/pull/691\r\n* @shivampwm2020 made their first contribution in https://github.com/dundee/gdu/pull/694\r\n* @itssali made their first contribution in https://github.com/dundee/gdu/pull/705\r\n* @mabunemeh made their first contribution in https://github.com/dundee/gdu/pull/709\r\n* @voidsipp made their first contribution in https://github.com/dundee/gdu/pull/717\r\n* @nk-batman21 made their first contribution in https://github.com/dundee/gdu/pull/713\r\n* @jamesbraid made their first contribution in https://github.com/dundee/gdu/pull/712\r\n* @simon04 made their first contribution in https://github.com/dundee/gdu/pull/711\r\n* @kok-o made their first contribution in https://github.com/dundee/gdu/pull/703\r\n* @dcadolph made their first contribution in https://github.com/dundee/gdu/pull/704\r\n* @timbretimber made their first contribution in https://github.com/dundee/gdu/pull/721\r\n\r\n**Full Changelog**: https://github.com/dundee/gdu/compare/v5.38.0...v5.39.0\r\n",
   "reactions": {
     "url": "https://api.github.com/repos/dundee/gdu/releases/437155362/reactions",
-    "total_count": 1,
-    "+1": 0,
+    "total_count": 3,
+    "+1": 1,
     "-1": 0,
     "laugh": 0,
     "hooray": 1,
     "confused": 0,
-    "heart": 0,
+    "heart": 1,
     "rocket": 0,
     "eyes": 0
   },
