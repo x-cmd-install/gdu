@@ -14,11 +14,11 @@ x install gdu
 
 ## Code insight
 
-Total: **41,433** lines of code across **262** files in the top 5 languages.
+Total: **41,437** lines of code across **262** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 34,365 | 2,628 | 7,039 | 218 |
+| Go | 34,369 | 2,628 | 7,039 | 218 |
 | Tsx | 2,592 | 125 | 275 | 19 |
 | Json | 2,466 | 0 | 4 | 7 |
 | TypeScript | 938 | 89 | 122 | 16 |
@@ -42,27 +42,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v5.39.0` (2026-11-06)
-- **Last commit**: 2026-11-06
+- **Last commit**: 2026-11-11
 - **Assets in release**: 32
 
 ## Popularity
 
-- **Stars**: 6,195 · **Forks**: 258 · **Open issues**: 265 · **Contributors**: 86
+- **Stars**: 6,196 · **Forks**: 259 · **Open issues**: 265 · **Contributors**: 86
 
 ## Totals (cumulative)
 
-- **Releases**: 97 · **Merged PRs**: 332 · **Open PRs**: 12 · **Closed issues**: 226 · **Open issues**: 39 · **Commits**: 962
+- **Releases**: 97 · **Merged PRs**: 339 · **Open PRs**: 8 · **Closed issues**: 228 · **Open issues**: 37 · **Commits**: 969
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-12 | 1 | 22 | 9 | 3 | 3 | 30 |
-| last60d | 2026-09-12 | 2 | 35 | 10 | 7 | 3 | 49 |
-| 90d | 2026-08-13 | 3 | 70 | 10 | 13 | 4 | 94 |
-| last180d | 2026-05-15 | 3 | 106 | 10 | 20 | 5 | 116 |
-| 360d | 2025-11-16 | 11 | 189 | 10 | 38 | 11 | 221 |
-| last720d | 2024-11-21 | 14 | 213 | 10 | 60 | 17 | 267 |
+| 30d | 2026-10-13 | 1 | 29 | 5 | 5 | 1 | 37 |
+| last60d | 2026-09-13 | 2 | 41 | 6 | 9 | 1 | 56 |
+| 90d | 2026-08-14 | 3 | 77 | 6 | 15 | 2 | 101 |
+| last180d | 2026-05-16 | 3 | 113 | 6 | 22 | 3 | 123 |
+| 360d | 2025-11-17 | 11 | 196 | 6 | 40 | 9 | 228 |
+| last720d | 2024-11-22 | 14 | 220 | 6 | 62 | 15 | 274 |
 
 ## Release assets
 
@@ -103,7 +103,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **93** distros on [repology.org](https://repology.org/project/gdu). **16** are ✅ on the latest upstream release, **72** are ⚠️ on an older version.
+Reported by **93** distros on [repology.org](https://repology.org/project/gdu). **17** are ✅ on the latest upstream release, **71** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -115,7 +115,7 @@ Reported by **93** distros on [repology.org](https://repology.org/project/gdu). 
 | Arch | `5.39.0` | ✅ latest |
 | Homebrew | `5.39.0` | ✅ latest |
 | Fedora rawhide | `5.32.0` | ⚠️ outdated |
-| Nix unstable | `5.38.0` | ⚠️ outdated |
+| Nix unstable | `5.39.0` | ✅ latest |
 | Void | `5.38.0` | ⚠️ outdated |
 | Alpine edge | `5.39.0` | ✅ latest |
 | openSUSE Tumbleweed | `5.36.1` | ⚠️ outdated |
@@ -129,4 +129,4 @@ Install metadata for gdu lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261111.yml` · 2026-11-11T07:09:40Z._
+_Snapshot: `data/card/261112.yml` · 2026-11-12T08:43:43Z._
