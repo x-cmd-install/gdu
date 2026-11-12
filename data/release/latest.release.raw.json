@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 32328808,
       "digest": "sha256:6c67483203c6c164ea5deb8446e01f5858d8010f02bc52b5a7d9aece9d711a05",
-      "download_count": 15,
+      "download_count": 22,
       "created_at": "2026-11-06T23:10:56Z",
       "updated_at": "2026-11-06T23:10:58Z",
       "browser_download_url": "https://github.com/dundee/gdu/releases/download/v5.39.0/gdu-5.39.0.tgz"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 8609720,
       "digest": "sha256:feeddc466602bf50a3b1fc4ca57d422ca71c355070dc3cda83df9b3b5f0e0e7d",
-      "download_count": 7,
+      "download_count": 8,
       "created_at": "2026-11-06T23:10:56Z",
       "updated_at": "2026-11-06T23:10:57Z",
       "browser_download_url": "https://github.com/dundee/gdu/releases/download/v5.39.0/gdu_android_arm64.tgz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 9070871,
       "digest": "sha256:b3b966daaa18f743f4d25c194fe22b383c5232e437c39e3875712ef9a78115ec",
-      "download_count": 37,
+      "download_count": 43,
       "created_at": "2026-11-06T23:10:56Z",
       "updated_at": "2026-11-06T23:10:57Z",
       "browser_download_url": "https://github.com/dundee/gdu/releases/download/v5.39.0/gdu_darwin_amd64.tgz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 8492999,
       "digest": "sha256:320a43faaa4e57928218292f70941581f334768477f337c641dd01aa8c904ba8",
-      "download_count": 96,
+      "download_count": 120,
       "created_at": "2026-11-06T23:10:56Z",
       "updated_at": "2026-11-06T23:10:57Z",
       "browser_download_url": "https://github.com/dundee/gdu/releases/download/v5.39.0/gdu_darwin_arm64.tgz"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 9443444,
       "digest": "sha256:b2e519b7c9ef54013d6ab035222ddbb195fa275d8bb160ab5f9f085410fdb647",
-      "download_count": 839,
+      "download_count": 1043,
       "created_at": "2026-11-06T23:10:56Z",
       "updated_at": "2026-11-06T23:10:57Z",
       "browser_download_url": "https://github.com/dundee/gdu/releases/download/v5.39.0/gdu_linux_amd64.tgz"
@@ -427,7 +427,7 @@
       "state": "uploaded",
       "size": 9071445,
       "digest": "sha256:7e1036cba1696ecceda40ff79dacd43db9c157fa137ea5d50e4a198b047418a1",
-      "download_count": 140,
+      "download_count": 171,
       "created_at": "2026-11-06T23:10:56Z",
       "updated_at": "2026-11-06T23:10:57Z",
       "browser_download_url": "https://github.com/dundee/gdu/releases/download/v5.39.0/gdu_linux_amd64_static.tgz"
@@ -499,7 +499,7 @@
       "state": "uploaded",
       "size": 8248659,
       "digest": "sha256:95900a16b9f9dad97f975b667644ddc073a1b377e95a0b4dfdf50045bf556ad0",
-      "download_count": 384,
+      "download_count": 551,
       "created_at": "2026-11-06T23:10:56Z",
       "updated_at": "2026-11-06T23:10:57Z",
       "browser_download_url": "https://github.com/dundee/gdu/releases/download/v5.39.0/gdu_linux_arm64.tgz"
@@ -1075,7 +1075,7 @@
       "state": "uploaded",
       "size": 9128607,
       "digest": "sha256:2c2c28a4edeb1a2742076ede3a0fc7851589d482c8cf679f293faa17ed9888b9",
-      "download_count": 653,
+      "download_count": 757,
       "created_at": "2026-11-06T23:10:56Z",
       "updated_at": "2026-11-06T23:10:57Z",
       "browser_download_url": "https://github.com/dundee/gdu/releases/download/v5.39.0/gdu_windows_amd64.exe.zip"
@@ -1147,7 +1147,7 @@
       "state": "uploaded",
       "size": 2596,
       "digest": "sha256:769e6cd164385ae4b1464f557018ba3d0d1f572c53c074370f75551681cca4ea",
-      "download_count": 87,
+      "download_count": 105,
       "created_at": "2026-11-06T23:10:56Z",
       "updated_at": "2026-11-06T23:10:56Z",
       "browser_download_url": "https://github.com/dundee/gdu/releases/download/v5.39.0/sha256sums.txt"
@@ -1183,7 +1183,7 @@
       "state": "uploaded",
       "size": 833,
       "digest": "sha256:aa59471a791f8fbb943cd91905df86b12423d688485f25aa7e74a2ab71f669ed",
-      "download_count": 17,
+      "download_count": 21,
       "created_at": "2026-11-06T23:10:56Z",
       "updated_at": "2026-11-06T23:10:56Z",
       "browser_download_url": "https://github.com/dundee/gdu/releases/download/v5.39.0/sha256sums.txt.asc"
