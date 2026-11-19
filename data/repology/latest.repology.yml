@@ -1,3 +1,15 @@
+- repo: nix_stable_25_05
+  srcname: gdu
+  visiblename: gdu
+  version: 5.30.1
+  origversion: null
+  status: outdated
+  summary: Disk usage analyzer with console interface
+  maintainers:
+    - mail@fabian-affolter.ch
+    - zowoq@github
+  licenses:
+    - MIT
 - repo: alpine_3_20
   subrepo: community
   srcname: gdu
@@ -24,20 +36,6 @@
     - kdaudt@alpinelinux.org
   licenses:
     - MIT
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: gdu
-  binnames:
-    - gdu
-  visiblename: gdu
-  version: 5.36.1
-  origversion: 5.36.1-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - daniel@milde.cz
-  categories:
-    - misc
 - repo: alpine_3_21
   subrepo: community
   srcname: gdu
@@ -183,20 +181,6 @@
     - MIT
   categories:
     - File tools
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: gdu
-  binnames:
-    - gdu
-  visiblename: gdu
-  version: 5.22.0
-  origversion: 5.22.0-1+rpi1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - daniel@milde.cz
-  categories:
-    - admin
 - repo: altsisyphus
   srcname: gdu
   binnames:
@@ -217,7 +201,7 @@
   binname: gdu
   visiblename: gdu
   version: 5.39.0
-  origversion: null
+  origversion: 5.39.0-1
   status: newest
   summary: A CLI disk usage analyzer
   maintainers:
@@ -397,6 +381,20 @@
     - daniel@milde.cz
   categories:
     - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: gdu
+  binnames:
+    - gdu
+  visiblename: gdu
+  version: 5.36.1
+  origversion: 5.36.1-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - daniel@milde.cz
+  categories:
+    - misc
 - repo: epel_9
   srcname: gdu
   binnames:
@@ -458,6 +456,22 @@
   categories:
     - Unspecified
 - repo: fedora_42
+  subrepo: updates
+  srcname: gdu
+  binnames:
+    - gdu
+    - gdu-debuginfo
+    - gdu-debugsource
+  visiblename: gdu
+  version: 5.32.0
+  origversion: 5.32.0-1.fc42
+  status: outdated
+  summary: Fast disk usage analyzer with console interface written in Go
+  licenses:
+    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT
+  categories:
+    - Unspecified
+- repo: fedora_42
   subrepo: release
   srcname: gdu
   binnames:
@@ -471,17 +485,17 @@
     - MIT AND Apache-2.0 AND BSD-3-Clause AND BSD-2-Clause AND ISC AND (BSD-3-Clause AND Apache-2.0 AND MIT) AND (MIT AND Apache-2.0)
   categories:
     - Unspecified
-- repo: fedora_42
-  subrepo: updates
+- repo: fedora_43
+  subrepo: release
   srcname: gdu
   binnames:
     - gdu
     - gdu-debuginfo
     - gdu-debugsource
   visiblename: gdu
-  version: 5.32.0
-  origversion: 5.32.0-1.fc42
-  status: outdated
+  version: 5.31.0
+  origversion: 5.31.0-1.fc43
+  status: legacy
   summary: Fast disk usage analyzer with console interface written in Go
   licenses:
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT
@@ -503,22 +517,6 @@
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT
   categories:
     - Unspecified
-- repo: fedora_43
-  subrepo: release
-  srcname: gdu
-  binnames:
-    - gdu
-    - gdu-debuginfo
-    - gdu-debugsource
-  visiblename: gdu
-  version: 5.31.0
-  origversion: 5.31.0-1.fc43
-  status: legacy
-  summary: Fast disk usage analyzer with console interface written in Go
-  licenses:
-    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT
-  categories:
-    - Unspecified
 - repo: fedora_44
   subrepo: release
   srcname: gdu
@@ -529,6 +527,22 @@
   visiblename: gdu
   version: 5.32.0
   origversion: 5.32.0-3.fc44
+  status: outdated
+  summary: Fast disk usage analyzer with console interface written in Go
+  licenses:
+    - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT
+  categories:
+    - Unspecified
+- repo: fedora_45
+  subrepo: release
+  srcname: gdu
+  binnames:
+    - gdu
+    - gdu-debuginfo
+    - gdu-debugsource
+  visiblename: gdu
+  version: 5.32.0
+  origversion: 5.32.0-4.fc45
   status: outdated
   summary: Fast disk usage analyzer with console interface written in Go
   licenses:
@@ -563,20 +577,6 @@
     - daniel.engberg.lists@pyret.net
   categories:
     - sysutils
-- repo: raspbian_stable
-  subrepo: main
-  srcname: gdu
-  binnames:
-    - gdu
-  visiblename: gdu
-  version: 5.25.0
-  origversion: 5.25.0-1+rpi1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - daniel@milde.cz
-  categories:
-    - admin
 - repo: gentoo_ovl_guru
   srcname: sys-fs/gdu
   visiblename: sys-fs/gdu
@@ -597,7 +597,7 @@
   srcname: gdu
   binname: gdu
   visiblename: gdu
-  version: 5.36.1
+  version: 5.37.0
   origversion: null
   status: outdated
   summary: Disk usage analyzer
@@ -689,20 +689,6 @@
     - MIT
   categories:
     - sysutils
-- repo: mageia_9
-  subrepo: core/release
-  srcname: gdu
-  binnames:
-    - gdu
-  visiblename: gdu
-  version: 5.13.2
-  origversion: 5.13.2-1.mga9
-  status: outdated
-  summary: Pretty fast disk usage analyzer written in Go
-  licenses:
-    - MIT
-  categories:
-    - File tools
 - repo: mageia_10
   subrepo: core/release
   srcname: gdu
@@ -764,20 +750,6 @@
   summary: Fast disk usage analyzer
   licenses:
     - MIT
-- repo: raspbian_testing
-  subrepo: main
-  srcname: gdu
-  binnames:
-    - gdu
-  visiblename: gdu
-  version: 5.36.1
-  origversion: 5.36.1-1+rpi1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - daniel@milde.cz
-  categories:
-    - admin
 - repo: msys2_clang64
   srcname: mingw-w64-gdu
   binname: mingw-w64-clang-x86_64-gdu
@@ -824,18 +796,6 @@
   srcname: gdu
   visiblename: gdu
   version: 5.29.0
-  origversion: null
-  status: outdated
-  summary: Disk usage analyzer with console interface
-  maintainers:
-    - mail@fabian-affolter.ch
-    - zowoq@github
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: gdu
-  visiblename: gdu
-  version: 5.30.1
   origversion: null
   status: outdated
   summary: Disk usage analyzer with console interface
@@ -983,6 +943,48 @@
   visiblename: gdu
   version: 5.25.0
   origversion: 5.25.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - daniel@milde.cz
+  categories:
+    - admin
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: gdu
+  binnames:
+    - gdu
+  visiblename: gdu
+  version: 5.22.0
+  origversion: 5.22.0-1+rpi1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - daniel@milde.cz
+  categories:
+    - admin
+- repo: raspbian_stable
+  subrepo: main
+  srcname: gdu
+  binnames:
+    - gdu
+  visiblename: gdu
+  version: 5.25.0
+  origversion: 5.25.0-1+rpi1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - daniel@milde.cz
+  categories:
+    - admin
+- repo: raspbian_testing
+  subrepo: main
+  srcname: gdu
+  binnames:
+    - gdu
+  visiblename: gdu
+  version: 5.36.1
+  origversion: 5.36.1-1+rpi1
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
@@ -1199,9 +1201,9 @@
   srcname: gdu
   binname: gdu
   visiblename: gdu
-  version: 5.38.0
-  origversion: 5.38.0_1
-  status: outdated
+  version: 5.39.0
+  origversion: 5.39.0_1
+  status: newest
   summary: Disk usage analyzer intended primarily for SSD disks
   maintainers:
     - daniel@teddydd.me
