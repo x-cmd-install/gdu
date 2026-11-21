@@ -14,7 +14,7 @@ x install gdu
 
 ## Code insight
 
-Total: **47,004** lines of code across **337** files in the top 5 languages.
+Total: **47,038** lines of code across **337** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -42,7 +42,7 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v5.39.0` (2026-11-06)
-- **Last commit**: 2026-11-16
+- **Last commit**: 2026-11-20
 - **Assets in release**: 32
 
 ## Popularity
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 97 · **Merged PRs**: 371 · **Open PRs**: 13 · **Closed issues**: 228 · **Open issues**: 38 · **Commits**: 1001
+- **Releases**: 97 · **Merged PRs**: 373 · **Open PRs**: 12 · **Closed issues**: 228 · **Open issues**: 38 · **Commits**: 1003
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-21 | 1 | 54 | 10 | 4 | 2 | 66 |
-| last60d | 2026-09-21 | 2 | 70 | 11 | 9 | 2 | 84 |
-| 90d | 2026-08-22 | 2 | 97 | 11 | 13 | 3 | 107 |
-| last180d | 2026-05-24 | 3 | 142 | 11 | 22 | 4 | 152 |
-| 360d | 2025-11-25 | 10 | 221 | 11 | 39 | 10 | 252 |
-| last720d | 2024-11-30 | 14 | 251 | 11 | 60 | 16 | 304 |
+| 30d | 2026-10-22 | 1 | 55 | 9 | 4 | 2 | 0 |
+| last60d | 2026-09-22 | 2 | 72 | 10 | 9 | 2 | 0 |
+| 90d | 2026-08-23 | 2 | 99 | 10 | 13 | 3 | 0 |
+| last180d | 2026-05-25 | 3 | 143 | 10 | 22 | 4 | 0 |
+| 360d | 2025-11-26 | 10 | 222 | 10 | 39 | 10 | 0 |
+| last720d | 2024-12-01 | 14 | 253 | 10 | 60 | 16 | 302 |
 
 ## Release assets
 
@@ -103,7 +103,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **93** distros on [repology.org](https://repology.org/project/gdu). **25** are ✅ on the latest upstream release, **63** are ⚠️ on an older version.
+Reported by **93** distros on [repology.org](https://repology.org/project/gdu). **27** are ✅ on the latest upstream release, **61** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -129,4 +129,4 @@ Install metadata for gdu lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261120.yml` · 2026-11-20T10:23:03Z._
+_Snapshot: `data/card/261121.yml` · 2026-11-21T08:28:13Z._
