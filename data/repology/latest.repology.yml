@@ -1,3 +1,63 @@
+- repo: nix_stable_24_05
+  srcname: gdu
+  visiblename: gdu
+  version: 5.28.0
+  origversion: null
+  status: outdated
+  summary: Disk usage analyzer with console interface
+  maintainers:
+    - mail@fabian-affolter.ch
+    - zowoq@github
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: gdu
+  visiblename: gdu
+  version: 5.29.0
+  origversion: null
+  status: outdated
+  summary: Disk usage analyzer with console interface
+  maintainers:
+    - mail@fabian-affolter.ch
+    - zowoq@github
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: gdu
+  visiblename: gdu
+  version: 5.30.1
+  origversion: null
+  status: outdated
+  summary: Disk usage analyzer with console interface
+  maintainers:
+    - mail@fabian-affolter.ch
+    - zowoq@github
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: gdu
+  visiblename: gdu
+  version: 5.32.0
+  origversion: null
+  status: outdated
+  summary: Disk usage analyzer with console interface
+  maintainers:
+    - mail@fabian-affolter.ch
+    - zowoq@github
+  licenses:
+    - MIT
+- repo: aur
+  srcname: gdu-git
+  binname: gdu-git
+  visiblename: gdu-git
+  version: v5.6.0.r2.gb6f6584
+  origversion: v5.6.0.r2.gb6f6584-1
+  status: rolling
+  summary: Fast disk usage analyzer
+  maintainers:
+    - dundee@aur
+  licenses:
+    - MIT
 - repo: alpine_3_20
   subrepo: community
   srcname: gdu
@@ -48,6 +108,18 @@
   summary: Fast disk usage calculator with console interface (documentation)
   maintainers:
     - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: aur
+  srcname: gdu-bin
+  binname: gdu-bin
+  visiblename: gdu-bin
+  version: 5.39.0
+  origversion: 5.39.0-1
+  status: newest
+  summary: Fast disk usage analyzer
+  maintainers:
+    - dundee@aur
   licenses:
     - MIT
 - repo: alpine_3_22
@@ -205,30 +277,6 @@
   origversion: 5.39.0-1
   status: newest
   summary: Fast disk usage analyzer
-  licenses:
-    - MIT
-- repo: aur
-  srcname: gdu-bin
-  binname: gdu-bin
-  visiblename: gdu-bin
-  version: 5.39.0
-  origversion: 5.39.0-1
-  status: newest
-  summary: Fast disk usage analyzer
-  maintainers:
-    - dundee@aur
-  licenses:
-    - MIT
-- repo: aur
-  srcname: gdu-git
-  binname: gdu-git
-  visiblename: gdu-git
-  version: v5.6.0.r2.gb6f6584
-  origversion: v5.6.0.r2.gb6f6584-1
-  status: rolling
-  summary: Fast disk usage analyzer
-  maintainers:
-    - dundee@aur
   licenses:
     - MIT
 - repo: chimera
@@ -413,6 +461,14 @@
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT
   categories:
     - Unspecified
+- repo: gnuguix
+  srcname: gdu
+  binname: gdu
+  visiblename: gdu
+  version: 5.37.0
+  origversion: null
+  status: outdated
+  summary: Disk usage analyzer
 - repo: fedora_40
   subrepo: updates
   srcname: gdu
@@ -581,14 +637,6 @@
     - MIT
   categories:
     - sys-fs
-- repo: gnuguix
-  srcname: gdu
-  binname: gdu
-  visiblename: gdu
-  version: 5.37.0
-  origversion: null
-  status: outdated
-  summary: Disk usage analyzer
 - repo: homebrew
   srcname: gdu
   visiblename: gdu
@@ -698,7 +746,7 @@
     - gdu
   visiblename: gdu
   version: 5.31.0
-  origversion: 5.31.0-2.mga10
+  origversion: 5.31.0-2.mga11
   status: outdated
   summary: Pretty fast disk usage analyzer written in Go
   licenses:
@@ -768,54 +816,6 @@
   summary: Fast disk usage analyzer (mingw-w64)
   licenses:
     - spdx:MIT
-- repo: nix_stable_24_05
-  srcname: gdu
-  visiblename: gdu
-  version: 5.28.0
-  origversion: null
-  status: outdated
-  summary: Disk usage analyzer with console interface
-  maintainers:
-    - mail@fabian-affolter.ch
-    - zowoq@github
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: gdu
-  visiblename: gdu
-  version: 5.29.0
-  origversion: null
-  status: outdated
-  summary: Disk usage analyzer with console interface
-  maintainers:
-    - mail@fabian-affolter.ch
-    - zowoq@github
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: gdu
-  visiblename: gdu
-  version: 5.30.1
-  origversion: null
-  status: outdated
-  summary: Disk usage analyzer with console interface
-  maintainers:
-    - mail@fabian-affolter.ch
-    - zowoq@github
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: gdu
-  visiblename: gdu
-  version: 5.32.0
-  origversion: null
-  status: outdated
-  summary: Disk usage analyzer with console interface
-  maintainers:
-    - mail@fabian-affolter.ch
-    - zowoq@github
-  licenses:
-    - MIT
 - repo: nix_stable_26_05
   srcname: gdu
   visiblename: gdu
@@ -1099,20 +1099,6 @@
   categories:
     - universe/misc
 - repo: ubuntu_24_04
-  subrepo: noble/universe
-  srcname: gdu
-  binnames:
-    - gdu
-  visiblename: gdu
-  version: 5.25.0
-  origversion: 5.25.0-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - daniel@milde.cz
-  categories:
-    - universe/misc
-- repo: ubuntu_24_04
   subrepo: noble-updates/universe
   srcname: gdu
   binnames:
@@ -1123,6 +1109,20 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
+    - daniel@milde.cz
+  categories:
+    - universe/misc
+- repo: ubuntu_24_04
+  subrepo: noble/universe
+  srcname: gdu
+  binnames:
+    - gdu
+  visiblename: gdu
+  version: 5.25.0
+  origversion: 5.25.0-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
     - daniel@milde.cz
   categories:
     - universe/misc
