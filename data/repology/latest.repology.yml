@@ -1,125 +1,115 @@
-- repo: nix_stable_24_05
+- repo: raspbian_testing
+  subrepo: main
   srcname: gdu
+  binnames:
+    - gdu
   visiblename: gdu
-  version: 5.28.0
-  origversion: null
+  version: 5.36.1
+  origversion: 5.36.1-1+rpi1
   status: outdated
-  summary: Disk usage analyzer with console interface
   maintainers:
-    - mail@fabian-affolter.ch
-    - zowoq@github
-  licenses:
-    - MIT
-- repo: nix_stable_24_11
-  srcname: gdu
-  visiblename: gdu
-  version: 5.29.0
-  origversion: null
-  status: outdated
-  summary: Disk usage analyzer with console interface
-  maintainers:
-    - mail@fabian-affolter.ch
-    - zowoq@github
-  licenses:
-    - MIT
-- repo: nix_stable_25_05
-  srcname: gdu
-  visiblename: gdu
-  version: 5.30.1
-  origversion: null
-  status: outdated
-  summary: Disk usage analyzer with console interface
-  maintainers:
-    - mail@fabian-affolter.ch
-    - zowoq@github
-  licenses:
-    - MIT
-- repo: nix_stable_25_11
-  srcname: gdu
-  visiblename: gdu
-  version: 5.32.0
-  origversion: null
-  status: outdated
-  summary: Disk usage analyzer with console interface
-  maintainers:
-    - mail@fabian-affolter.ch
-    - zowoq@github
-  licenses:
-    - MIT
-- repo: aur
-  srcname: gdu-git
-  binname: gdu-git
-  visiblename: gdu-git
-  version: v5.6.0.r2.gb6f6584
-  origversion: v5.6.0.r2.gb6f6584-1
-  status: rolling
-  summary: Fast disk usage analyzer
-  maintainers:
-    - dundee@aur
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: gdu
+    - team+pkg-go@tracker.debian.org
+    - daniel@milde.cz
+  categories:
+    - admin
+- repo: scoop
+  subrepo: main
   binname: gdu
   visiblename: gdu
-  version: 5.28.0
-  origversion: 5.28.0-r4
-  status: outdated
-  summary: Fast disk usage calculator with console interface
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: gdu
-  binname: gdu-doc
-  visiblename: gdu-doc
-  version: 5.28.0
-  origversion: 5.28.0-r4
-  status: outdated
-  summary: Fast disk usage calculator with console interface (documentation)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: gdu
-  binname: gdu
-  visiblename: gdu
-  version: 5.29.0
-  origversion: 5.29.0-r6
-  status: outdated
-  summary: Fast disk usage calculator with console interface
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: gdu
-  binname: gdu-doc
-  visiblename: gdu-doc
-  version: 5.29.0
-  origversion: 5.29.0-r6
-  status: outdated
-  summary: Fast disk usage calculator with console interface (documentation)
-  maintainers:
-    - kdaudt@alpinelinux.org
-  licenses:
-    - MIT
-- repo: aur
-  srcname: gdu-bin
-  binname: gdu-bin
-  visiblename: gdu-bin
   version: 5.39.0
-  origversion: 5.39.0-1
+  origversion: null
   status: newest
-  summary: Fast disk usage analyzer
+  licenses:
+    - MIT
+- repo: slackbuilds
+  srcname: system/gdu
+  visiblename: system/gdu
+  version: 5.39.0
+  origversion: null
+  status: newest
   maintainers:
-    - dundee@aur
+    - meyerwork22@gmail.com
+  categories:
+    - system
+- repo: kali_rolling
+  subrepo: main
+  srcname: gdu
+  binnames:
+    - gdu
+  visiblename: gdu
+  version: 5.36.1
+  origversion: 5.36.1-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - daniel@milde.cz
+  categories:
+    - misc
+- repo: liguros_stable
+  srcname: sys-fs/gdu
+  visiblename: sys-fs/gdu
+  version: 5.14.0
+  origversion: null
+  status: legacy
+  summary: Disk usage analyzer with console interface written in Go
+  maintainers:
+    - fallback-mnt-liguros@repology
+  licenses:
+    - Apache-2.0
+    - BSD
+    - MIT
+  categories:
+    - sys-fs
+- repo: alpine_3_20
+  subrepo: community
+  srcname: gdu
+  binname: gdu
+  visiblename: gdu
+  version: 5.28.0
+  origversion: 5.28.0-r4
+  status: outdated
+  summary: Fast disk usage calculator with console interface
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: gdu
+  binname: gdu-doc
+  visiblename: gdu-doc
+  version: 5.28.0
+  origversion: 5.28.0-r4
+  status: outdated
+  summary: Fast disk usage calculator with console interface (documentation)
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: gdu
+  binname: gdu
+  visiblename: gdu
+  version: 5.29.0
+  origversion: 5.29.0-r6
+  status: outdated
+  summary: Fast disk usage calculator with console interface
+  maintainers:
+    - kdaudt@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: gdu
+  binname: gdu-doc
+  visiblename: gdu-doc
+  version: 5.29.0
+  origversion: 5.29.0-r6
+  status: outdated
+  summary: Fast disk usage calculator with console interface (documentation)
+  maintainers:
+    - kdaudt@alpinelinux.org
   licenses:
     - MIT
 - repo: alpine_3_22
@@ -277,6 +267,30 @@
   origversion: 5.39.0-1
   status: newest
   summary: Fast disk usage analyzer
+  licenses:
+    - MIT
+- repo: aur
+  srcname: gdu-bin
+  binname: gdu-bin
+  visiblename: gdu-bin
+  version: 5.39.0
+  origversion: 5.39.0-1
+  status: newest
+  summary: Fast disk usage analyzer
+  maintainers:
+    - dundee@aur
+  licenses:
+    - MIT
+- repo: aur
+  srcname: gdu-git
+  binname: gdu-git
+  visiblename: gdu-git
+  version: v5.6.0.r2.gb6f6584
+  origversion: v5.6.0.r2.gb6f6584-1
+  status: rolling
+  summary: Fast disk usage analyzer
+  maintainers:
+    - dundee@aur
   licenses:
     - MIT
 - repo: chimera
@@ -461,14 +475,6 @@
     - Apache-2.0 AND BSD-2-Clause AND BSD-3-Clause AND ISC AND MIT
   categories:
     - Unspecified
-- repo: gnuguix
-  srcname: gdu
-  binname: gdu
-  visiblename: gdu
-  version: 5.37.0
-  origversion: null
-  status: outdated
-  summary: Disk usage analyzer
 - repo: fedora_40
   subrepo: updates
   srcname: gdu
@@ -637,6 +643,14 @@
     - MIT
   categories:
     - sys-fs
+- repo: gnuguix
+  srcname: gdu
+  binname: gdu
+  visiblename: gdu
+  version: 5.37.0
+  origversion: null
+  status: outdated
+  summary: Disk usage analyzer
 - repo: homebrew
   srcname: gdu
   visiblename: gdu
@@ -651,35 +665,6 @@
   origversion: null
   status: rolling
   summary: Disk usage analyzer with console interface written in Go
-- repo: kali_rolling
-  subrepo: main
-  srcname: gdu
-  binnames:
-    - gdu
-  visiblename: gdu
-  version: 5.36.1
-  origversion: 5.36.1-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - daniel@milde.cz
-  categories:
-    - misc
-- repo: liguros_stable
-  srcname: sys-fs/gdu
-  visiblename: sys-fs/gdu
-  version: 5.14.0
-  origversion: null
-  status: legacy
-  summary: Disk usage analyzer with console interface written in Go
-  maintainers:
-    - fallback-mnt-liguros@repology
-  licenses:
-    - Apache-2.0
-    - BSD
-    - MIT
-  categories:
-    - sys-fs
 - repo: liguros_stable
   srcname: sys-fs/gdu
   visiblename: sys-fs/gdu
@@ -758,9 +743,9 @@
   srcname: gdu
   binname: gdu
   visiblename: gdu
-  version: 5.38.0
-  origversion: 5.38.0-1
-  status: outdated
+  version: 5.39.0
+  origversion: 5.39.0-1
+  status: newest
   summary: Fast disk usage analyzer
   licenses:
     - MIT
@@ -816,6 +801,54 @@
   summary: Fast disk usage analyzer (mingw-w64)
   licenses:
     - spdx:MIT
+- repo: nix_stable_24_05
+  srcname: gdu
+  visiblename: gdu
+  version: 5.28.0
+  origversion: null
+  status: outdated
+  summary: Disk usage analyzer with console interface
+  maintainers:
+    - mail@fabian-affolter.ch
+    - zowoq@github
+  licenses:
+    - MIT
+- repo: nix_stable_24_11
+  srcname: gdu
+  visiblename: gdu
+  version: 5.29.0
+  origversion: null
+  status: outdated
+  summary: Disk usage analyzer with console interface
+  maintainers:
+    - mail@fabian-affolter.ch
+    - zowoq@github
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
+  srcname: gdu
+  visiblename: gdu
+  version: 5.30.1
+  origversion: null
+  status: outdated
+  summary: Disk usage analyzer with console interface
+  maintainers:
+    - mail@fabian-affolter.ch
+    - zowoq@github
+  licenses:
+    - MIT
+- repo: nix_stable_25_11
+  srcname: gdu
+  visiblename: gdu
+  version: 5.32.0
+  origversion: null
+  status: outdated
+  summary: Disk usage analyzer with console interface
+  maintainers:
+    - mail@fabian-affolter.ch
+    - zowoq@github
+  licenses:
+    - MIT
 - repo: nix_stable_26_05
   srcname: gdu
   visiblename: gdu
@@ -894,7 +927,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: gdu
   binnames:
     - gdu
@@ -908,7 +941,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: gdu
   binnames:
     - gdu
@@ -977,39 +1010,6 @@
     - daniel@milde.cz
   categories:
     - admin
-- repo: raspbian_testing
-  subrepo: main
-  srcname: gdu
-  binnames:
-    - gdu
-  visiblename: gdu
-  version: 5.36.1
-  origversion: 5.36.1-1+rpi1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - daniel@milde.cz
-  categories:
-    - admin
-- repo: scoop
-  subrepo: main
-  binname: gdu
-  visiblename: gdu
-  version: 5.39.0
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
-- repo: slackbuilds
-  srcname: system/gdu
-  visiblename: system/gdu
-  version: 5.39.0
-  origversion: null
-  status: newest
-  maintainers:
-    - meyerwork22@gmail.com
-  categories:
-    - system
 - repo: solus
   srcname: gdu
   binname: gdu
@@ -1071,20 +1071,6 @@
   maintainers:
     - termux@github
 - repo: ubuntu_22_04
-  subrepo: jammy-updates/universe
-  srcname: gdu
-  binnames:
-    - gdu
-  visiblename: gdu
-  version: 5.13.2
-  origversion: 5.13.2-1ubuntu0.22.04.3
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - daniel@milde.cz
-  categories:
-    - universe/misc
-- repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: gdu
   binnames:
@@ -1095,6 +1081,20 @@
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
+    - daniel@milde.cz
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy-updates/universe
+  srcname: gdu
+  binnames:
+    - gdu
+  visiblename: gdu
+  version: 5.13.2
+  origversion: 5.13.2-1ubuntu0.22.04.3
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - daniel@milde.cz
   categories:
     - universe/misc
