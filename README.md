@@ -26,11 +26,11 @@ Total: **47,061** lines of code across **337** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **7 / 10**
+Overall score: **7.1 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 1/29 approved changesets -- score normalized to 0
+- **Code-Review** (1/10) — Found 3/28 approved changesets -- score normalized to 1
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Security-Policy** (0/10) — security policy file not detected
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 1 | 58 | 8 | 5 | 1 | 71 |
-| last60d | 2026-09-25 | 2 | 72 | 9 | 9 | 1 | 81 |
-| 90d | 2026-08-26 | 2 | 102 | 9 | 13 | 2 | 111 |
-| last180d | 2026-05-28 | 3 | 145 | 9 | 22 | 3 | 154 |
-| 360d | 2025-11-29 | 10 | 225 | 9 | 40 | 9 | 254 |
-| last720d | 2024-12-04 | 14 | 257 | 9 | 61 | 15 | 305 |
+| 30d | 2026-10-26 | 1 | 55 | 8 | 5 | 1 | 71 |
+| last60d | 2026-09-26 | 2 | 72 | 9 | 9 | 1 | 81 |
+| 90d | 2026-08-27 | 2 | 101 | 9 | 13 | 2 | 111 |
+| last180d | 2026-05-29 | 3 | 144 | 9 | 22 | 3 | 154 |
+| 360d | 2025-11-30 | 10 | 225 | 9 | 40 | 9 | 254 |
+| last720d | 2024-12-05 | 14 | 256 | 9 | 60 | 15 | 305 |
 
 ## Release assets
 
@@ -101,25 +101,6 @@ Lowest-scoring checks:
 | [sha256sums.txt](https://github.com/dundee/gdu/releases/download/v5.39.0/sha256sums.txt) | 2.5 KiB | `other` |
 | [sha256sums.txt.asc](https://github.com/dundee/gdu/releases/download/v5.39.0/sha256sums.txt.asc) | 833 B | `other` |
 
-## Distribution status
-
-Reported by **93** distros on [repology.org](https://repology.org/project/gdu). **28** are ✅ on the latest upstream release, **60** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `5.36.1` | ⚠️ outdated |
-| Debian 14 | `5.36.1` | ⚠️ outdated |
-| Debian 13 | `5.25.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `5.25.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `5.25.0` | ⚠️ outdated |
-| Arch | `5.39.0` | ✅ latest |
-| Homebrew | `5.39.0` | ✅ latest |
-| Fedora rawhide | `5.32.0` | ⚠️ outdated |
-| Nix unstable | `5.39.0` | ✅ latest |
-| Void | `5.39.0` | ✅ latest |
-| Alpine edge | `5.39.0` | ✅ latest |
-| openSUSE Tumbleweed | `5.36.1` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for gdu lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `gdu` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -129,4 +110,4 @@ Install metadata for gdu lives in the [x-cmd/install](https://github.com/x-cmd/i
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:34:33Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T10:13:04Z._

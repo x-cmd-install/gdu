@@ -26,11 +26,11 @@ x install gdu
 
 ## OpenSSF Scorecard 评分
 
-总评分: **7 / 10**
+总评分: **7.1 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 1/29 approved changesets -- score normalized to 0
+- **Code-Review** (1/10) — Found 3/28 approved changesets -- score normalized to 1
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Security-Policy** (0/10) — security policy file not detected
 
@@ -57,12 +57,12 @@ x install gdu
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 1 | 58 | 8 | 5 | 1 | 71 |
-| last60d | 2026-09-25 | 2 | 72 | 9 | 9 | 1 | 81 |
-| 90d | 2026-08-26 | 2 | 102 | 9 | 13 | 2 | 111 |
-| last180d | 2026-05-28 | 3 | 145 | 9 | 22 | 3 | 154 |
-| 360d | 2025-11-29 | 10 | 225 | 9 | 40 | 9 | 254 |
-| last720d | 2024-12-04 | 14 | 257 | 9 | 61 | 15 | 305 |
+| 30d | 2026-10-26 | 1 | 55 | 8 | 5 | 1 | 71 |
+| last60d | 2026-09-26 | 2 | 72 | 9 | 9 | 1 | 81 |
+| 90d | 2026-08-27 | 2 | 101 | 9 | 13 | 2 | 111 |
+| last180d | 2026-05-29 | 3 | 144 | 9 | 22 | 3 | 154 |
+| 360d | 2025-11-30 | 10 | 225 | 9 | 40 | 9 | 254 |
+| last720d | 2024-12-05 | 14 | 256 | 9 | 60 | 15 | 305 |
 
 ## Release 资产
 
@@ -101,25 +101,6 @@ x install gdu
 | [sha256sums.txt](https://github.com/dundee/gdu/releases/download/v5.39.0/sha256sums.txt) | 2.5 KiB | `other` |
 | [sha256sums.txt.asc](https://github.com/dundee/gdu/releases/download/v5.39.0/sha256sums.txt.asc) | 833 B | `other` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/gdu) 上共有 **93** 个发行版报告此项目。**28** 个 ✅ 已是最新上游版本，**60** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `5.36.1` | ⚠️ outdated |
-| Debian 14 | `5.36.1` | ⚠️ outdated |
-| Debian 13 | `5.25.0` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `5.25.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `5.25.0` | ⚠️ outdated |
-| Arch | `5.39.0` | ✅ latest |
-| Homebrew | `5.39.0` | ✅ latest |
-| Fedora rawhide | `5.32.0` | ⚠️ outdated |
-| Nix unstable | `5.39.0` | ✅ latest |
-| Void | `5.39.0` | ✅ latest |
-| Alpine edge | `5.39.0` | ✅ latest |
-| openSUSE Tumbleweed | `5.36.1` | ⚠️ outdated |
-
 ## 改进这些数据
 
 gdu 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `gdu` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -129,4 +110,4 @@ gdu 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261124.yml` · 2026-11-24T11:34:33Z._
+_数据快照: `data/card/261125.yml` · 2026-11-25T10:13:05Z._
